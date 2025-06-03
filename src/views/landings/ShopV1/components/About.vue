@@ -1,0 +1,13 @@
+<template>
+  <b-container class="py-5 my-lg-3 my-xl-4 my-xxl-5">
+    <b-row class="pt-2 py-md-4">
+      <b-col lg="10" xl="9">
+        <p class="lead text-dark pb-md-2 pb-lg-3 mb-2">We do not believe that one style suits everyone. That is why we choose three design directions for the new season. Get inspired by new trends and create an atmosphere of coziness and comfort in your own home. On the site you will find all the wonderful decor items from photo frames to tablecloths for the dining table.</p>
+        <a class="btn btn-lg btn-link px-0" href="#">
+          About us
+          <i class="ai-arrow-right ms-2"></i>
+        </a>
+      </b-col>
+    </b-row>
+  </b-container>
+</template>

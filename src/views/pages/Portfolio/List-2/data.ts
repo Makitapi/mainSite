@@ -1,0 +1,113 @@
+import list6Img from '@/assets/img/portfolio/list/06.png'
+import list7Img from '@/assets/img/portfolio/list/07.png'
+import list8Img from '@/assets/img/portfolio/list/08.png'
+import list9Img from '@/assets/img/portfolio/list/09.png'
+import list10Img from '@/assets/img/portfolio/list/10.png'
+import vuejsDarkImg from '@/assets/img/portfolio/brands/vuejs-dark.svg'
+import vuejsLightImg from '@/assets/img/portfolio/brands/vuejs-light.svg'
+import deloitteDarkImg from '@/assets/img/portfolio/brands/deloitte-dark.svg'
+import deloitteLightImg from '@/assets/img/portfolio/brands/deloitte-light.svg'
+import fosterImg from '@/assets/img/portfolio/brands/foster-green.svg'
+import boostImg from '@/assets/img/portfolio/brands/boost.svg'
+import championDarkImg from '@/assets/img/portfolio/brands/champion-purple-dark.svg'
+import championLight from '@/assets/img/portfolio/brands/champion-purple-light.svg'
+import clutchDark from '@/assets/img/portfolio/brands/clutch-dark.svg'
+import clutchLight from '@/assets/img/portfolio/brands/clutch-light.svg'
+import fosterYellow from '@/assets/img/portfolio/brands/foster-yellow.svg'
+import type { ImageType, LinkType } from '@/types'
+
+export { list6Img, list10Img, list7Img, list8Img, list9Img, vuejsDarkImg, vuejsLightImg, deloitteDarkImg, deloitteLightImg, fosterImg, fosterYellow, boostImg, championDarkImg, championLight, clutchDark, clutchLight }
+
+type BrandType = {
+  image: ImageType
+}
+
+export type ListType = {
+  brand?: BrandType
+  image: string
+  title: string
+  description?: string
+  awards?: {
+    image: ImageType
+  }[]
+  features?: string[]
+  variant?: string
+  bgColor?: string
+  link?: LinkType
+}
+
+export const listData: ListType[] = [
+  {
+    image: list6Img,
+    title: 'Development of an application for a national bank',
+    description: 'Morbi et massa fames ac scelerisque sit commodo dignissim faucibus vel quisque proin lectus. Morbi et massa fames ac scelerisque sit commodo dignissim.',
+    brand: {
+      image: {
+        light: championLight,
+        dark: championDarkImg
+      }
+    },
+    awards: [
+      {
+        image: {
+          light: vuejsLightImg,
+          dark: vuejsDarkImg
+        }
+      },
+      {
+        image: {
+          light: deloitteLightImg,
+          dark: deloitteDarkImg
+        }
+      }
+    ],
+    variant: 'info',
+    link: { name: 'portfolio.single-1' }
+  },
+  {
+    image: list7Img,
+    title: 'Design and development of a dashboard for data management',
+    description: 'Feugiat elit tempor, malesuada rutrum amet quis duis facilisi viverra. Quam ut in gravida dignissim eget mauris pretium facilisi dui varius amet et quam massa auctor.',
+    brand: { image: { light: fosterImg, dark: fosterImg } },
+    variant: 'primary',
+    link: { name: 'portfolio.single-1' }
+  },
+  {
+    image: list8Img,
+    title: 'Landing page for a marketing agency Boost',
+    features: ['Faucibus sit est dui id gravida', 'Lectus in sem eu facilisis ornare', 'Massa maecenas cras vivamus'],
+    brand: { image: { light: boostImg, dark: boostImg } },
+    variant: 'danger',
+    link: { name: 'portfolio.single-1' }
+  },
+  {
+    image: list9Img,
+    title: 'Development of an application for a task tracker',
+    description: 'Egestas ultrices condimentum consectetur massa aliquam volutpat pulvinar aliquet nisi quam. Nibh commodo tristique nisi, justo, sed maecenas lectus ut nec.',
+    awards: [
+      {
+        image: {
+          light: clutchLight,
+          dark: clutchDark
+        }
+      },
+      {
+        image: {
+          light: deloitteLightImg,
+          dark: deloitteDarkImg
+        }
+      }
+    ],
+    brand: { image: { light: championLight, dark: championDarkImg } },
+    bgColor: '#d7e4f4',
+    link: { name: 'portfolio.single-1' }
+  },
+  {
+    image: list10Img,
+    title: 'Landing page for company for audience analysis',
+    features: ['Faucibus sit est dui id gravida', 'Lectus in sem eu facilisis ornare', 'Massa maecenas cras vivamus'],
+    brand: { image: { light: fosterYellow, dark: fosterYellow } },
+    variant: 'warning',
+    link: { name: 'portfolio.single-1' }
+  }
+]
