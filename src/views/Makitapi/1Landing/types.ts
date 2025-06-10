@@ -1,70 +1,83 @@
-import type { ImageType, LinkType } from '@/types'
-
-export type CaseStudyType = {
-  image: string
-  title: string
-  description: string
-  highlights: {
-    value: string
-    label: string
-  }[]
+export interface ImageType {
+  light: string
+  dark: string
 }
 
-export type ClientType = {
+export interface ToolType {
   image: ImageType
-  name?: string
+  alt: string
+  delay: number
 }
 
-interface CompanyImageType extends ImageType {
-  width: number
+export interface ClientType {
+  image: ImageType
+  name: string
+}
+
+export interface CompanyImageType {
   imageSwap: string
+  light: string
+  dark: string
+  width: number
 }
 
-type CompanyType = {
-  name?: string
-  image: CompanyImageType
-}
-
-export type AuthorType = {
+export interface AuthorType {
   image: string
   name: string
   designation: string
-  company: CompanyType
+  company: {
+    image: CompanyImageType
+  }
 }
 
-export type TestimonialType = {
-  author: AuthorType
-  comment: string
-}
-
-export type ProjectType = {
+export interface ProjectType {
   title: string
   image: string
   category: string
   year: number
-  link?: LinkType
+  link?: {
+    name: string
+  }
 }
 
-export type MemberType = {
+export interface SocialMediaType {
+  icon: string
+  name: string
+}
+
+export interface MemberType {
   image: string
   name: string
   designation: string
-  socialMedia: {
-    icon?: string
-    name: string
-    link?: LinkType
-  }[]
+  socialMedia: SocialMediaType[]
 }
-export type ServiceType = {
+
+export interface ServiceType {
   image: string
   title: string
   description: string
 }
 
-
-export type IndustryType = {
+export interface IndustryType {
   image: string
   title: string
   description: string
   key: string
+}
+
+export interface CaseStudyHighlightType {
+  value: string
+  label: string
+}
+
+export interface CaseStudyType {
+  image: string
+  title: string
+  description: string
+  highlights: CaseStudyHighlightType[]
+}
+
+export interface TestimonialType {
+  author: AuthorType
+  comment: string
 }

@@ -91,7 +91,7 @@ import team05 from '@/assets/img/landing/creative-agency/team/05.jpg'
 import team06 from '@/assets/img/landing/creative-agency/team/06.jpg'
 
 // import { ServiceType } from '@/assets/icons'
-import type { AuthorType, ClientType, CaseStudyType, MemberType, ProjectType, TestimonialType, ServiceType, IndustryType, ToolType} from '@/views/Makitapi/1Landing/types'
+import type { AuthorType, ClientType, CaseStudyType, MemberType, ProjectType, TestimonialType, ServiceType, IndustryType, ToolType } from './types'
 
 export const clients: ClientType[] = [
   {

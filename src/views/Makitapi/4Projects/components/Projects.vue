@@ -14,12 +14,12 @@
         <img class="d-none d-dark-mode-block mb-2 mb-lg-3" :src="item.brand?.image.light" alt="img" />
         <!-- item title and description -->
         <template v-if="item.description">
-          <h2 class="h4"><router-link :to="{ name: item.link.name }">{{ item.title }}</router-link></h2>
+          <h2 class="h4"><router-link v-if="item.link?.name" :to="{ name: item.link.name }">{{ item.title }}</router-link><span v-else>{{ item.title }}</span></h2>
           <p class="fs-sm pb-3 pb-lg-4 mb-3">{{ item.description }}</p>
         </template>
         <!-- item title and features -->
         <template v-else>
-          <h2 class="h4"><router-link :to="{ name: item.link.name }">{{ item.title }}</router-link></h2>
+          <h2 class="h4"><router-link v-if="item.link?.name" :to="{ name: item.link.name }">{{ item.title }}</router-link><span v-else>{{ item.title }}</span></h2>
           <ul class="list-unstyled pb-1 pb-lg-2 mb-3">
             <li class="d-flex pb-1 mb-2" v-for="(feat, idx) in item.features" :key="idx">
               <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
@@ -28,7 +28,7 @@
           </ul>
         </template>
         <!-- link button -->
-        <router-link class="btn btn-sm btn-outline-dark rounded-pill" :to="{ name: item.link?.name }">The story</router-link>
+        <router-link v-if="item.link?.name" class="btn btn-sm btn-outline-dark rounded-pill" :to="{ name: item.link.name }">The story</router-link>
         <div v-if="item.awards" class="d-flex align-items-center pt-2 pt-lg-3 mt-3">
           <!-- extra images -->
           <h6 class="text-body mb-0 me-3">Awards:</h6>

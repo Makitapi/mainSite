@@ -11,7 +11,7 @@
         </button>
 
         <AppMenu />
-        
+
       </b-container>
     </div>
   </header>
@@ -21,6 +21,13 @@
 import AppMenu from '@/components/AppMenu.vue'
 import LogoBox from '@/components/NavBar/LogoBox.vue'
 import { type PropType } from 'vue'
+
+defineProps({
+  customClass: {
+    type: String,
+    default: ''
+  }
+})
 
 import { useThemeStore } from '@/stores/theme'
 </script>
