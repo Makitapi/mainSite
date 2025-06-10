@@ -7,6 +7,7 @@
       <!-- <Filter /> -->
 
       <BlogPost />
+      
     </b-container>
   </main>
   <!-- <Subscription /> -->

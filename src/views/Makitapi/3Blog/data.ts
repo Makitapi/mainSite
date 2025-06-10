@@ -2,8 +2,8 @@ import Post1 from '@/assets/img/blog/Post1.jpeg'
 import Post2 from '@/assets/img/blog/Post2.jpeg'
 import Post3 from '@/assets/img/blog/Post3.jpeg'
 
-import Post4 from '@/assets/img/blog/Post3.jpeg'
-import Post5 from '@/assets/img/blog/Post3.jpeg'
+// import Post4 from '@/assets/img/blog/Post3.jpeg'
+// import Post5 from '@/assets/img/blog/Post3.jpeg'
 
 
 

@@ -115,7 +115,7 @@
 import NavBar from '@/components/NavBar/NavBar.vue'
 
 import Jarallax from '@/components/Jarallax.vue'
-import coverImg from '@/assets/img/blog/post3.jpeg'
+import coverImg from '@/assets/img/blog/Post3.jpeg'
 import Image1 from '@/assets/img/blog/data.jpeg'
 
 import Footer from '@/views/Makitapi/1Landing/components/Footer.vue'
