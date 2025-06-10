@@ -38,13 +38,13 @@
         <p class="fs-lg">Donec diam neque, efficitur vitae ante a, eleifend placerat est. Phasellus dapibus scelerisque diam, eu rhoncus lorem vulputate lobortis. Praesent pulvinar venenatis mauris, eget fringilla sem.</p>
 
         <!-- Tags -->
-        <div class="d-flex flex-wrap pb-5 pt-3 pt-md-4 pt-xl-5 mt-xl-n2">
+        <!-- <div class="d-flex flex-wrap pb-5 pt-3 pt-md-4 pt-xl-5 mt-xl-n2">
           <h3 class="h6 py-1 mb-0 me-4">Relevant tags:</h3>
           <a v-for="item in tag" :key="item" class="nav-link fs-sm py-1 px-0 me-3" href="#"> <span class="text-primary">#</span>{{ item }} </a>
-        </div>
+        </div> -->
 
         <!-- Author widget -->
-        <div class="border-top py-4">
+        <!-- <div class="border-top py-4">
           <div class="d-flex align-items-start py-2">
             <img class="d-block rounded-circle mb-3" :src="avatar04" width="56" alt="img" />
             <div class="d-md-flex w-100 ps-4">
@@ -71,7 +71,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </b-col>
     </b-row>
   </b-container>

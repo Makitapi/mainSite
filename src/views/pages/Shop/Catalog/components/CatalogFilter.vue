@@ -64,11 +64,11 @@ import VueSlider from 'vue-3-slider-component'
 const priceRange = ref([10, 50])
 
 const dotStyle = {
-  backgroundColor: '#448c74'
+  backgroundColor: '#0051a3'
 }
 
 const processStyle = {
-  backgroundColor: '#448c74'
+  backgroundColor: '#0051a3'
 }
 
 const railStyle = {
@@ -76,11 +76,11 @@ const railStyle = {
 }
 
 const tooltipStyle = {
-  backgroundColor: '#448c74'
+  backgroundColor: '#0051a3'
 }
 </script>
 <style lang="scss">
 .vue-slider-dot-tooltip-inner {
-  border-color: #448c74;
+  border-color: #0051a3;
 }
 </style>

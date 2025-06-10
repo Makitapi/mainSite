@@ -39,28 +39,10 @@ export type ListType = {
 export const listData: ListType[] = [
   {
     image: list6Img,
-    title: 'Development of an application for a national bank',
-    description: 'Morbi et massa fames ac scelerisque sit commodo dignissim faucibus vel quisque proin lectus. Morbi et massa fames ac scelerisque sit commodo dignissim.',
-    brand: {
-      image: {
-        light: championLight,
-        dark: championDarkImg
-      }
-    },
-    awards: [
-      {
-        image: {
-          light: vuejsLightImg,
-          dark: vuejsDarkImg
-        }
-      },
-      {
-        image: {
-          light: deloitteLightImg,
-          dark: deloitteDarkImg
-        }
-      }
-    ],
+    title: 'From 5 Seconds to 1: more items, less labor',
+    description: 'How RFID Transformation Saved thousands of hours of Scanning Time per year',
+    brand: { image: { light: championLight, dark: championDarkImg } },
+    awards: [ { image: { light: vuejsLightImg, dark: vuejsDarkImg } } , {image: { light: deloitteLightImg, dark: deloitteDarkImg }}],
     variant: 'info',
     link: { name: 'portfolio.single-1' }
   },

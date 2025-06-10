@@ -26,7 +26,7 @@ const config: ChartConfiguration = {
         label: 'Device share, %',
         data: [64, 19, 10, 7],
         borderWidth: 0,
-        backgroundColor: ['#448c74', 'rgba(68,140,116,.64)', 'rgba(68,140,116,.4)', 'rgba(68,140,116,.2)'],
+        backgroundColor: ['#0051a3', 'rgba(68,140,116,.64)', 'rgba(68,140,116,.4)', 'rgba(68,140,116,.2)'],
         hoverOffset: 4
       }
     ]

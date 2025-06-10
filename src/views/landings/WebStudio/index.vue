@@ -1,20 +1,15 @@
 <template>
   <main class="page-wrapper">
     <NavBar button-class="rounded-pill" />
+    
+    <b-container class="pt-5 pb-lg-2 pb-xl-2 py-xxl-3 my-5">
+    <Breadcrumb title="Use-cases" :class="'pb-lg-4 pb-2'" />
+    </b-container>
 
     <Hero />
 
-    <Awards />
-
-    <Services />
-
     <Industries />
 
-    <Skills />
-
-    <Portfolio />
-
-    <Contact />
   </main>
 
   <Footer />
@@ -22,12 +17,8 @@
 
 <script setup lang="ts">
 import NavBar from '@/components/NavBar/NavBar.vue'
+import Breadcrumb from '@/components/Breadcrumb.vue'
 import Hero from '@/views/landings/WebStudio/components/Hero.vue'
-import Awards from '@/views/landings/WebStudio/components/Awards.vue'
-import Services from '@/views/landings/WebStudio/components/Services.vue'
 import Industries from '@/views/landings/WebStudio/components/Industries.vue'
-import Skills from '@/views/landings/WebStudio/components/Skills.vue'
-import Portfolio from '@/views/landings/WebStudio/components/Portfolio.vue'
-import Contact from '@/views/landings/WebStudio/components/Contact.vue'
-import Footer from '@/views/landings/WebStudio/components/Footer.vue'
+import Footer from '@/views/landings/CreativeAgency/components/Footer.vue'
 </script>

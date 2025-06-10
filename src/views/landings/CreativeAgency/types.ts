@@ -35,3 +35,16 @@ export type MemberType = {
     link?: LinkType
   }[]
 }
+export type ServiceType = {
+  image: string
+  title: string
+  description: string
+}
+
+
+export type IndustryType = {
+  image: string
+  title: string
+  description: string
+  key: string
+}

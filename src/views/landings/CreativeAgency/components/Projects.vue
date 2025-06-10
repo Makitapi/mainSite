@@ -1,5 +1,7 @@
 <template>
-  <b-container class="overflow-hidden pb-5 mb-2 mb-lg-3 mb-xl-4 mb-xxl-5">
+  <main class="page-wrapper">
+    <NavBar button-class="rounded-0" />
+    <b-container class="overflow-hidden pb-5 py-5 mt-5 mb-2 mb-lg-3 mb-xl-4 mb-xxl-5">
     <ShuffleJS>
       <b-row class="pb-lg-4 mb-2 mb-sm-3">
         <b-col xxl="3" lg="4" class="text-center text-lg-start">
@@ -55,9 +57,16 @@
       </div>
     </ShuffleJS>
   </b-container>
+  </main>
+  
+<Footer />
 </template>
+
 <script setup lang="ts">
 import ShuffleJS from '@/components/ShuffleJS.vue'
 import { toSentenceCase } from '@/helpers/change-casing'
 import { projects } from '@/views/landings/CreativeAgency/data'
+import NavBar from '@/components/NavBar/NavBar.vue'
+import Footer from '@/views/landings/CreativeAgency/components/Footer.vue'
+
 </script>

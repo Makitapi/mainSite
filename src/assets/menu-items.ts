@@ -433,88 +433,24 @@ export const MENU_ITEMS: MenuItemType[] = [
       }
     ]
   },
-  {
-    key: 'account',
-    label: 'Account',
-    isTitle: true,
-    children: [
-      {
-        key: 'account-auth',
-        label: 'Auth pages',
-        parentKey: 'account',
-        children: [
-          {
-            key: 'account-sign-in',
-            link: { name: 'auth.sign-in' },
-            parentKey: 'account-auth',
-            label: 'Sign In',
-            target: '_blank'
-          },
-          {
-            key: 'account-sign-up',
-            link: { name: 'auth.sign-up' },
-            parentKey: 'account-auth',
-            label: 'Sign Up',
-            target: '_blank'
-          },
-          {
-            key: 'account-sign-in-up',
-            link: { name: 'auth.sign-in-up' },
-            parentKey: 'account-auth',
-            label: 'Sign In / Up',
-            target: '_blank'
-          },
-          {
-            key: 'account-password-recovery',
-            link: { name: 'auth.password-recovery' },
-            parentKey: 'account-auth',
-            label: 'Password Recovery',
-            target: '_blank'
-          }
-        ]
-      },
-      {
-        key: 'account-overview',
-        label: 'Overview',
-        link: { name: 'account.overview' },
-        parentKey: 'account'
-      },
-      {
-        key: 'account-settings',
-        label: 'Settings',
-        link: { name: 'account.settings' },
-        parentKey: 'account'
-      },
-      {
-        key: 'account-billing',
-        label: 'Billing',
-        link: { name: 'account.billing' },
-        parentKey: 'account'
-      },
-      {
-        key: 'account-orders',
-        label: 'Orders',
-        link: { name: 'account.orders' },
-        parentKey: 'account'
-      },
-      {
-        key: 'account-earnings',
-        label: 'Earnings',
-        link: { name: 'account.earnings' },
-        parentKey: 'account'
-      },
-      {
-        key: 'account-chat',
-        label: 'Chat (Messages)',
-        link: { name: 'account.chat' },
-        parentKey: 'account'
-      },
-      {
-        key: 'account-favorites',
-        label: 'Favorites (Wishlist)',
-        link: { name: 'account.favorites' },
-        parentKey: 'account'
-      }
-    ]
+    {
+    key: 'Use-cases',
+    label: 'Use-cases',
+    link: { name: 'Use-cases' }
+  },
+    {
+    key: 'B-Log',
+    label: 'B-Log',
+    link: { name: 'B-Log' }
+  },
+    {
+    key: 'Projects',
+    label: 'Projects',
+    link: { name: 'Projects' }
+  },
+    {
+    key: 'Contact',
+    label: 'Contact',
+    link: { name: 'contact-2' }
   }
 ]

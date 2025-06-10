@@ -27,15 +27,15 @@ export type TrendingType = {
 
 export const blogPostList: BlogPostType[] = [
   {
-    title: 'Business strategy for a brand of vintage bags',
+    title: 'Know Thyself, Focus on You: Data-Driven Intralogistics Is the Competitive Edge',
     image: list1Img,
-    expert: 'Morbi et massa fames ac scelerisque sit commodo dignissim faucibus vel quisque proin lectus et massa fames ac scelerisque sit commodo dignissim. Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel morbi tellus, scelerisque vel metus ...',
-    shares: 6,
+    expert: "When businesses think about improving supply chain performance, the focus often jumps to transportation or last-mile delivery. But before any product reaches a truck or doorstep, it travels a more crucial path: inside your warehouse. This is where intralogistics—and more importantly, data about ...",
+    shares: 123412,
     comments: 12,
     date: '8 hours ago',
     category: 'Business',
     link: {
-      name: 'blog.post-1'
+      name: 'blog.post-2'
     }
   },
   {
@@ -59,7 +59,7 @@ export const blogPostList: BlogPostType[] = [
     date: 'April 25, 2022',
     category: 'Travel',
     link: {
-      name: 'blog.post-3'
+      name: 'blog.post-2'
     }
   },
   {
@@ -71,7 +71,7 @@ export const blogPostList: BlogPostType[] = [
     date: 'May 12, 2022',
     category: 'Marketing',
     link: {
-      name: 'blog.post-1'
+      name: 'blog.post-2'
     }
   },
   {

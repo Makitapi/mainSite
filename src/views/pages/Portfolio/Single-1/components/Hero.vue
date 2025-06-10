@@ -9,7 +9,7 @@
     <b-col lg="11" xl="10">
       <img class="d-block d-dark-mode-none mb-2 mb-sm-3" :src="vintageDark" alt="Vintage" />
       <img class="d-none d-dark-mode-block mb-2 mb-sm-3" :src="vintageLight" alt="Vintage" />
-      <h1 class="display-2 pb-3 pb-md-4 pb-lg-5">Business strategy for a brand of vintage bags</h1>
+      <h1 class="display-2 pb-3 pb-md-4 pb-lg-5">Business strategy 4 a brand of vintage bags</h1>
     </b-col>
   </b-row>
 

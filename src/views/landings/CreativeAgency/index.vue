@@ -4,15 +4,22 @@
 
     <Hero />
 
-    <About />
+    <Numbers />
 
-    <Projects />
+    <RFID_Benefits />
+    
+    <Why_Makitapi />
+    
+    <HowItWorks />
+    
+    <!-- <CaseStudies /> -->
 
-    <Clients />
+    <!-- <Industries /> -->
 
-    <Testimonials />
+    <!-- <Reviews /> -->
 
-    <Team />
+    <!-- <HWbrands /> -->
+
   </main>
 
   <Footer />
@@ -21,10 +28,15 @@
 <script setup lang="ts">
 import NavBar from '@/components/NavBar/NavBar.vue'
 import Hero from '@/views/landings/CreativeAgency/components/Hero.vue'
-import About from '@/views/landings/CreativeAgency/components/About.vue'
-import Projects from '@/views/landings/CreativeAgency/components/Projects.vue'
-import Clients from '@/views/landings/CreativeAgency/components/Clients.vue'
-import Testimonials from '@/views/landings/CreativeAgency/components/Testimonials.vue'
-import Team from '@/views/landings/CreativeAgency/components/Team.vue'
+import Numbers from '@/views/landings/CreativeAgency/components/Numbers.vue'
+import RFID_Benefits from '@/views/landings/CreativeAgency/components/Benefits.vue'
+import Why_Makitapi from '@/views/landings/CreativeAgency/components/WhyMakitapi.vue'
+import HowItWorks from '@/views/landings/CreativeAgency/components/HowItWorks.vue'
 import Footer from '@/views/landings/CreativeAgency/components/Footer.vue'
+
+import CaseStudies from '@/views/landings/CreativeAgency/components/CaseStudies.vue'
+import Industries from '@/views/landings/CreativeAgency/components/Industries.vue'
+import Reviews from '@/views/landings/SaasV1/components/Testimonial.vue'
+import HWbrands from '@/views/landings/MarketingAgency/components/Tools.vue'
+
 </script>

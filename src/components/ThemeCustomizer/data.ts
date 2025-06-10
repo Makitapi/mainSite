@@ -29,7 +29,7 @@ type BorderRoundedType = {
 export const colors: ColorType[] = [
   {
     name: 'Primary',
-    hex: '#448c74',
+    hex: '#0051a3',
     variant: 'primary'
   },
   {
@@ -76,7 +76,7 @@ export const bordersNRounding: BorderRoundedType = {
 }
 
 export const defaultConfig = {
-  primary: '#448c74',
+  primary: '#0051a3',
   warning: '#edcb50',
   info: '#3f7fca',
   success: '#3fca90',

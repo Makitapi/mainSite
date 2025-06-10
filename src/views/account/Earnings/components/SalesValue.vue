@@ -23,10 +23,10 @@ const config: ChartConfiguration = {
         backgroundColor: 'rgba(68,140,116, 0.1)', // Adjust opacity for better readability
         borderWidth: 2,
         borderColor: 'rgba(68,140,116, 0.6)',
-        pointBackgroundColor: '#448c74',
+        pointBackgroundColor: '#0051a3',
         pointBorderWidth: 3,
-        pointBorderColor: '#448c74',
-        pointHoverBorderColor: '#448c74',
+        pointBorderColor: '#0051a3',
+        pointHoverBorderColor: '#0051a3',
         pointHoverBorderWidth: 6
       }
     ]

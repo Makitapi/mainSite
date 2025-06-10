@@ -17,10 +17,10 @@ export const lineAreaChart: ChartType = {
       backgroundColor: 'rgba(68,140,116,.1)',
       borderWidth: 2,
       borderColor: 'rgba(68,140,116,.6)',
-      pointBackgroundColor: '#448c74',
+      pointBackgroundColor: '#0051a3',
       pointBorderWidth: 3,
-      pointBorderColor: '#448c74',
-      pointHoverBorderColor: '#448c74',
+      pointBorderColor: '#0051a3',
+      pointHoverBorderColor: '#0051a3',
       pointHoverBorderWidth: 6
     }
   ],

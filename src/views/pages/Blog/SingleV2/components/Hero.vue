@@ -1,6 +1,6 @@
 <template>
   <b-container class="py-5 mt-5 mb-md-2 mb-lg-3 mb-xl-4">
-    <BreadcrumbTwo title="Blog" subtitle="Single post v.2" :class="'pb-lg-4 pb-2'" />
+    <BreadcrumbTwo title="Blog" subtitle="Post" :class="'pb-lg-4 pb-2'" />
 
     <!-- Post title + post meta -->
     <h1 class="display-4 text-center pb-2 pb-lg-3">How to look for inspiration for new goals in life and remember to give yourself a break?</h1>

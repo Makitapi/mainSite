@@ -1,0 +1,14 @@
+<svg width="130" height="48" xmlns="http://www.w3.org/2000/svg" xml:space="preserve">
+ <g>
+  <title>Layer 1</title>
+  <path d="m3.74908,8.12683c0,-3.18056 2.57843,-5.75899 5.75888,-5.75899l23.03559,0c3.18046,0 5.75889,2.57843 5.75889,5.75899l0,27.87479c0,3.18066 -2.57843,5.75897 -5.75889,5.75897l-23.03559,0c-3.18047,0 -5.75888,-2.57834 -5.75888,-5.75897l0,-27.87479z" fill="none" fill-rule="evenodd" id="svg_3" stroke="#0051a3"/>
+  <text fill="#0051a3" font-family="Aptos,Aptos_MSFontService,sans-serif" font-style="normal" font-variant="normal" font-weight="7" font-stretch="normal" font-size="128" text-anchor="start" direction="ltr" writing-mode="lr-tb" unicode-bidi="normal" text-decoration="none" transform="matrix(0.0967883 0 0 0.0967883 386.086 157.228)" y="-1463.99315" x="-3901.70384" id="svg_4" stroke="null">NDA</text>
+  <path d="m8.97563,19.30576l25.01102,0" fill="#0051a3" fill-rule="evenodd" id="svg_5" stroke="#0051a3"/>
+  <path d="m8.97563,24.82268l25.01102,0" fill="#0051a3" fill-rule="evenodd" id="svg_6" stroke="#0051a3"/>
+  <path d="m8.97563,30.4364l25.01102,0" fill="#0051a3" fill-rule="evenodd" id="svg_7" stroke="#0051a3"/>
+  <path d="m8.97563,36.05012l25.01102,0" fill="#0051a3" fill-rule="evenodd" id="svg_8" stroke="#0051a3"/>
+  <path d="m32.34998,28.50063c-4.731,0 -8.56576,3.83505 -8.56576,8.56576c0,4.73072 3.83475,8.56576 8.56576,8.56576c4.731,0 8.56576,-3.83504 8.56576,-8.56576c0.00195,-4.72877 -3.82991,-8.56371 -8.55896,-8.56576c-0.00194,0 -0.00485,0 -0.0068,0l0,0zm2.07417,8.97468c-1.24856,1.24576 -2.5039,2.50263 -3.76699,3.77067c-1.07339,-1.07841 -2.14965,-2.15432 -3.22791,-3.22788l1.07921,-1.07841l2.1487,2.14958c1.04337,-1.05859 2.07998,-2.10941 3.11076,-3.15267c1.03081,-1.04367 1.60184,-1.60359 2.67039,-2.63691c0.03001,-0.03021 0.06192,-0.05993 0.09679,-0.09012c0.0339,-0.02883 0.06483,-0.06154 0.09097,-0.09736l1.09372,1.07832c-1.26695,1.26327 -2.04608,2.03912 -3.29564,3.28479l-0.00002,0l0.00002,0l0,-0.00002l0,0.00001z" fill="#0051a3" fill-rule="evenodd" id="svg_9" stroke="#FFFFFF"/>
+  <text font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Assistant'" font-size="24" id="svg_1" y="31.04468" x="47.18628" stroke-width="0" stroke="#000" fill="#0051a3">[Private]</text>
+ </g>
+
+</svg>

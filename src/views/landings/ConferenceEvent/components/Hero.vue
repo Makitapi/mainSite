@@ -114,6 +114,6 @@ const setThumbsSwiper = (swiper: any) => {
 }
 
 .thumb-swiper .swiper-wrapper .swiper-slide.swiper-slide-thumb-active {
-  border-color: #448c74;
+  border-color: #0051a3;
 }
 </style>
