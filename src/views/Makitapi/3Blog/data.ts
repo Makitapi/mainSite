@@ -1,6 +1,6 @@
 import Post1 from '@/assets/img/blog/Post1.jpeg'
 import Post2 from '@/assets/img/blog/Post2.jpeg'
-import Post3 from '@/assets/img/blog/post3.jpeg'
+import Post3 from '@/assets/img/blog/post4.jpeg'
 
 
 
