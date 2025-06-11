@@ -53,22 +53,24 @@ import avatar16 from '@/assets/img/avatar/16.jpg'
 import avatar17 from '@/assets/img/avatar/17.jpg'
 import avatar18 from '@/assets/img/avatar/18.jpg'
 
-import inventory01 from '@/assets/img/landing/web-studio/industries/01.jpg'
-import inventory02 from '@/assets/img/landing/web-studio/industries/02.jpg'
-import inventory03 from '@/assets/img/landing/web-studio/industries/03.jpg'
-import inventory04 from '@/assets/img/landing/web-studio/industries/04.jpg'
 
-import production01 from '@/assets/img/landing/web-studio/industries/01.jpg'
-import production02 from '@/assets/img/landing/web-studio/industries/02.jpg'
-import production03 from '@/assets/img/landing/web-studio/industries/03.jpg'
-import production04 from '@/assets/img/landing/web-studio/industries/04.jpg'
-import production05 from '@/assets/img/landing/web-studio/industries/01.jpg'
+import inventory01 from '@/assets/img/usecases/01.jpg'
+import inventory02 from '@/assets/img/usecases/02.jpg'
+import inventory03 from '@/assets/img/usecases/03.jpg'
+import inventory04 from '@/assets/img/usecases/04.jpg'
 
-import industries01 from '@/assets/img/landing/web-studio/industries/01.jpg'
-import industries02 from '@/assets/img/landing/web-studio/industries/02.jpg'
-import industries03 from '@/assets/img/landing/web-studio/industries/03.jpg'
-import industries04 from '@/assets/img/landing/web-studio/industries/04.jpg'
-import industries05 from '@/assets/img/landing/web-studio/industries/02.jpg'
+import production01 from '@/assets/img/usecases/01.jpg'
+import production02 from '@/assets/img/usecases/02.jpg'
+import production03 from '@/assets/img/usecases/03.jpg'
+import production04 from '@/assets/img/usecases/04.jpg'
+import production05 from '@/assets/img/usecases/01.jpg'
+
+import industries01 from '@/assets/img/usecases/01.jpg'
+import industries02 from '@/assets/img/usecases/02.jpg'
+import industries03 from '@/assets/img/usecases/03.jpg'
+import industries04 from '@/assets/img/usecases/04.jpg'
+import industries05 from '@/assets/img/usecases/02.jpg'
+
 
 
 
@@ -90,7 +92,6 @@ import team04 from '@/assets/img/landing/creative-agency/team/04.jpg'
 import team05 from '@/assets/img/landing/creative-agency/team/05.jpg'
 import team06 from '@/assets/img/landing/creative-agency/team/06.jpg'
 
-// import { ServiceType } from '@/assets/icons'
 import type { AuthorType, ClientType, CaseStudyType, MemberType, ProjectType, TestimonialType, ServiceType, IndustryType, ToolType } from './types'
 
 export const clients: ClientType[] = [

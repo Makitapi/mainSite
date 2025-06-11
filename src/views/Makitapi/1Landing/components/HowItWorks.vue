@@ -3,27 +3,8 @@
     <b-container class="py-2 py-sm-4 py-lg-5">
       <h2 class="h1 text-center pb-1 mb-1 mt-xxl-2">How it works?</h2>
       <p class="text-center pb-4 mb-2 mb-lg-3">Let's make it happen</p>
+
       <b-row class="align-items-center position-relative pb-5 pb-lg-0 mb-1 mb-sm-2 mb-md-4 mb-lg-0">
-        <b-col md="6" xl="5" class="offset-lg-1 order-md-2 pb-2 pb-md-0 mb-4 mb-md-0" data-aos="fade-left" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
-          <ul class="list-unstyled mb-0">
-              <li class="d-flex pt-1 mt-2">
-                <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-                Explore case studies from similar implementations
-              </li>
-              <li class="d-flex pt-1 mt-2">
-                <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-                Live technology demonstration showcasing real-world applications
-              </li>
-              <li class="d-flex pt-1 mt-2">
-                <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-                Proof of concept development to validate technical feasibility
-              </li>
-              <li class="d-flex pt-1 mt-2">
-                <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-                Framework design and engagement model discussion (crawl, walk, run, fly)
-              </li>
-            </ul>
-        </b-col>
         <b-col md="6" lg="5" xl="4" class="offset-xl-1 order-md-1" data-aos="fade-right" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
           <div class="pe-md-4 pe-lg-0">
             <span class="badge fs-sm bg-primary bg-opacity-10 text-primary mb-3 mb-lg-4">Step 01</span>
@@ -32,10 +13,30 @@
             <!-- <router-link class="btn btn-outline-primary rounded-pill" to="#">Schedule a Demo</router-link> -->
           </div>
         </b-col>
+        <b-col md="6" xl="5" class="offset-lg-1 order-md-2 pb-2 pb-md-0 mb-4 mb-md-0" data-aos="fade-left" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
+          <ul class="list-unstyled mb-0">
+            <li class="d-flex pt-1 mt-2">
+              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
+              Explore case studies from similar implementations
+            </li>
+            <li class="d-flex pt-1 mt-2">
+              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
+              Live technology demonstration showcasing real-world applications
+            </li>
+            <li class="d-flex pt-1 mt-2">
+              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
+              Proof of concept development to validate technical feasibility
+            </li>
+            <li class="d-flex pt-1 mt-2">
+              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
+              Framework design and engagement model discussion (crawl, walk, run, fly)
+            </li>
+          </ul>
+        </b-col>
       </b-row>
 
       <div class="d-none d-lg-flex justify-content-center" data-aos="fade-in" data-aos-duration="500" data-aos-offset="250">
-        <svg class="d-block text-primary" width="339" height="365" viewBox="0 0 339 365" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: -150px; margin-top: -140px; margin-bottom: -108px">
+        <svg class="d-block text-primary" width="339" height="365" viewBox="100 20 339 365" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: -150px; margin-top: -140px; margin-bottom: -108px">
           <path d="M324 291.371C120.111 291.37 240.756 58.7225 1.00032 73.2606" stroke="url(#arrow1)" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"></path>
           <path d="M337.375 290.62C338.074 290.998 338.074 292.001 337.375 292.379L328.476 297.196C327.81 297.557 327 297.074 327 296.317L327 286.683C327 285.925 327.81 285.443 328.476 285.803L337.375 290.62Z" fill="currentColor"></path>
           <defs>
@@ -48,27 +49,27 @@
       </div>
 
       <b-row class="align-items-center position-relative pb-5 pb-lg-0 mb-1 mb-sm-2 mb-md-4 mb-lg-0">
-        <b-col md="6" xl="5" class="offset-xl-1 pb-2 pb-md-0 mb-4 mb-md-0" data-aos="fade-right" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
+        <b-col md="6" lg="5" xl="4" class="offset-lg-1" data-aos="fade-left" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
           <ul class="list-unstyled mb-0">
-              <li class="d-flex pt-1 mt-2">
-                <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-                Detailed site surveys and operational workflow mapping
-              </li>
-              <li class="d-flex pt-1 mt-2">
-                <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-                Complete documentation of current processes and improvement opportunities
-              </li>
-              <li class="d-flex pt-1 mt-2">
-                <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-                Picture of Success (PictOS) definition with clear ROI projections
-              </li>
-              <li class="d-flex pt-1 mt-2">
-                <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-                Pilot program design with specific success metrics defined
-              </li>
+            <li class="d-flex pt-1 mt-2">
+              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
+              Detailed site surveys and operational workflow mapping
+            </li>
+            <li class="d-flex pt-1 mt-2">
+              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
+              Complete documentation of current processes and improvement opportunities
+            </li>
+            <li class="d-flex pt-1 mt-2">
+              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
+              Picture of Success (PictOS) definition with clear ROI projections
+            </li>
+            <li class="d-flex pt-1 mt-2">
+              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
+              Pilot program design with specific success metrics defined
+            </li>
           </ul>
         </b-col>
-        <b-col md="6" lg="5" xl="4" class="offset-lg-1" data-aos="fade-left" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
+        <b-col md="6" xl="5" class="offset-xl-1 pb-2 pb-md-0 mb-4 mb-md-0" data-aos="fade-right" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
           <div class="ps-md-4 ps-lg-0">
             <span class="badge fs-sm bg-primary bg-opacity-10 text-primary mb-3 mb-lg-4">Step 02</span>
             <h3 class="h2 mb-3 mb-lg-4">Real-life test</h3>
@@ -91,26 +92,6 @@
       </div>
 
       <b-row class="align-items-center position-relative">
-        <b-col md="6" xl="5" class="offset-lg-1 order-md-2 d-md-flex justify-content-end pb-2 pb-md-0 mb-4 mb-md-0" data-aos="fade-left" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
-          <ul class="list-unstyled mb-0">
-              <li class="d-flex pt-1 mt-2">
-                <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-                Phased rollout execution with milestone-based progress tracking
-              </li>
-              <li class="d-flex pt-1 mt-2">
-                <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-                ROI validation through measurable performance improvements
-              </li>
-              <li class="d-flex pt-1 mt-2">
-                <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-                Hypercare support during critical transition periods
-              </li>
-              <li class="d-flex pt-1 mt-2">
-                <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-                Future expansion guidelines and scalability planning framework
-              </li>
-          </ul>
-        </b-col>
         <b-col md="6" lg="5" xl="4" class="offset-xl-1 order-md-1" data-aos="fade-right" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
           <div class="pe-md-4 pe-lg-0">
             <span class="badge fs-sm bg-primary bg-opacity-10 text-primary mb-3 mb-lg-4">Step 03</span>
@@ -119,16 +100,27 @@
             <!-- <router-link class="btn btn-outline-primary rounded-pill" to="#">Reachout to us</router-link> -->
           </div>
         </b-col>
+        <b-col md="6" xl="5" class="offset-lg-1 order-md-2 d-md-flex justify-content-end pb-2 pb-md-0 mb-4 mb-md-0" data-aos="fade-left" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
+          <ul class="list-unstyled mb-0">
+            <li class="d-flex pt-1 mt-2">
+              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
+              Phased rollout execution with milestone-based progress tracking
+            </li>
+            <li class="d-flex pt-1 mt-2">
+              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
+              ROI validation through measurable performance improvements
+            </li>
+            <li class="d-flex pt-1 mt-2">
+              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
+              Hypercare support during critical transition periods
+            </li>
+            <li class="d-flex pt-1 mt-2">
+              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
+              Future expansion guidelines and scalability planning framework
+            </li>
+          </ul>
+        </b-col>
       </b-row>
     </b-container>
   </section>
 </template>
-
-<script lang="ts" setup>
-import stepLight1 from '@/assets/img/landing/saas-2/steps/01-light.png'
-import stepDark1 from '@/assets/img/landing/saas-2/steps/01-dark.png'
-import stepLight2 from '@/assets/img/landing/saas-2/steps/02-light.png'
-import stepDark2 from '@/assets/img/landing/saas-2/steps/02-dark.png'
-import stepLight3 from '@/assets/img/landing/saas-2/steps/03-light.png'
-import stepDark3 from '@/assets/img/landing/saas-2/steps/03-dark.png'
-</script>

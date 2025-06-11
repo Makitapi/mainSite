@@ -21,7 +21,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import type { PropType } from 'vue'
-import type { ServiceType } from '@/views/landings/CreativeAgency/types'
+import type { ServiceType } from '@/views/Makitapi/1Landing/types'
 
 defineProps({
   service: {

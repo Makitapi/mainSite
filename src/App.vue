@@ -1,7 +1,7 @@
 <template>
   <RouterView />
   <BackToTop />
-  <ThemeCustomizer />
+  <!-- <ThemeCustomizer /> -->
 </template>
 
 <script setup lang="ts">
