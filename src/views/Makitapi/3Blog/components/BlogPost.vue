@@ -6,6 +6,7 @@
         <h3>
           <router-link :to="{ name: post.link.name }">{{ post.title }}</router-link>
         </h3>
+        <h6>{{ post.subtitle }}</h6>
         <p class="d-sm-none d-md-block">{{ post.firstLine }}</p>
         <div class="d-flex flex-wrap align-items-center mt-n2">
           <!-- <a class="nav-link text-body-secondary fs-sm fw-normal p-0 mt-2 me-3" href="#">

@@ -74,10 +74,6 @@ import industries04 from '@/assets/img/landing/web-studio/industries/04.jpg'
 import industries05 from '@/assets/img/landing/web-studio/industries/02.jpg'
 
 
-
-
-
-
 import caseStudy1 from '@/assets/img/landing/marketing-agency/case-studies/01.jpg'
 import caseStudy2 from '@/assets/img/landing/marketing-agency/case-studies/02.jpg'
 import caseStudy3 from '@/assets/img/landing/marketing-agency/case-studies/03.jpg'

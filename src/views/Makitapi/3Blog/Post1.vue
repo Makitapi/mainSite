@@ -2,10 +2,15 @@
   <main class="page-wrapper">
     <NavBar />
     <b-container class="pt-5 my-5">
-      <Breadcrumb title="Blog" :class="'pb-lg-4'" />
+    <b-breadcrumb class="pt-lg-3" aria-label="breadcrumb">
+      <b-breadcrumb-item :to="{ name: 'landing' }">Home</b-breadcrumb-item>
+      <b-breadcrumb-item :to="{ name: 'Blog' }"> Blog </b-breadcrumb-item>
+      <b-breadcrumb-item>{{ blogPostList[index].title }}</b-breadcrumb-item>
+    </b-breadcrumb>
 
       <!-- Post title-->
       <h1 class="display-5 text-center pb-2 pb-lg-3">{{ blogPostList[index].title }}</h1>
+      <h4 class="text-center">{{ blogPostList[index].subtitle }}</h4>
     </b-container>
 
     <Jarallax custom-class="jarallax" :options="{ speed: 0.65 }">

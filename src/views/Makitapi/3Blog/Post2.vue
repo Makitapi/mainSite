@@ -3,10 +3,15 @@
     <NavBar />
 
       <b-container class="pt-5 my-5">
-    <Breadcrumb title="Blog" :class="'pb-lg-4'" />
+    <b-breadcrumb class="pt-lg-3" aria-label="breadcrumb">
+      <b-breadcrumb-item :to="{ name: 'landing' }">Home</b-breadcrumb-item>
+      <b-breadcrumb-item :to="{ name: 'Blog' }"> Blog </b-breadcrumb-item>
+      <b-breadcrumb-item>{{ blogPostList[index].title }}</b-breadcrumb-item>
+    </b-breadcrumb>
 
-    <!-- Post title + post meta -->
-    <h1 class="display-5 text-center pb-2 pb-lg-3">{{ blogPostList[index].title }}</h1>
+      <!-- Post title-->
+      <h1 class="display-5 text-center pb-2 pb-lg-3">{{ blogPostList[index].title }}</h1>
+      <h4 class="text-center">{{ blogPostList[index].subtitle }}</h4>
     <!-- <div class="d-flex flex-wrap align-items-center justify-content-center mt-n2">
       <span class="text-body-secondary fs-sm fw-normal p-0 mt-2 me-3">
         12

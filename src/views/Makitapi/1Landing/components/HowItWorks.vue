@@ -49,7 +49,7 @@
       </div>
 
       <b-row class="align-items-center position-relative pb-5 pb-lg-0 mb-1 mb-sm-2 mb-md-4 mb-lg-0">
-        <b-col md="6" lg="5" xl="4" class="offset-lg-1" data-aos="fade-left" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
+        <b-col md="6" lg="5" xl="4" class="offset-lg-1 order-2 order-md-1" data-aos="fade-left" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
           <ul class="list-unstyled mb-0">
             <li class="d-flex pt-1 mt-2">
               <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
@@ -69,7 +69,7 @@
             </li>
           </ul>
         </b-col>
-        <b-col md="6" xl="5" class="offset-xl-1 pb-2 pb-md-0 mb-4 mb-md-0" data-aos="fade-right" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
+        <b-col md="6" xl="5" class="offset-xl-1 pb-2 pb-md-0 mb-4 mb-md-0 order-1 order-md-2" data-aos="fade-right" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
           <div class="ps-md-4 ps-lg-0">
             <span class="badge fs-sm bg-primary bg-opacity-10 text-primary mb-3 mb-lg-4">Step 02</span>
             <h3 class="h2 mb-3 mb-lg-4">Real-life test</h3>

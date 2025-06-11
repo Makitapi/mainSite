@@ -1,6 +1,8 @@
 import Post1 from '@/assets/img/blog/Post1.jpeg'
 import Post2 from '@/assets/img/blog/Post2.jpeg'
-import Post3 from '@/assets/img/blog/post4.jpg'
+import Post3 from '@/assets/img/blog/Post3.jpeg'
+import Post4 from '@/assets/img/blog/post4.jpg'
+import Post5 from '@/assets/img/blog/post4.jpg'
 
 
 
@@ -11,6 +13,7 @@ import type { LinkType } from '@/types'
 
 export type BlogPostType = {
   title: string
+  subtitle: string
   image: string
   firstLine: string
   shares: number
@@ -28,7 +31,8 @@ export type TrendingType = {
 
 export const blogPostList: BlogPostType[] = [
   {
-    title: 'How to Start an RFID Program for Intralogistics',
+    title: 'How to Start an RFID Program',
+    subtitle: 'The intralogistics scenario',
     image: Post1,
     firstLine: "Radio Frequency Identification (RFID) technology is transforming warehouse and distribution center operations by providing real-time visibility into inventory movement and location. Starting an RFID program for intralogistics requires careful planning and a phased approach to ensure successful implementation.",
     shares: 10,
@@ -40,7 +44,8 @@ export const blogPostList: BlogPostType[] = [
     }
   },
   {
-    title: 'Accuracy First, Speed Second: Rethinking Priorities in the Supply Chain',
+    title: 'Accuracy First, Speed Second',
+    subtitle: 'Rethinking Priorities in the Supply Chain',
     image: Post2,
     firstLine: '“Ship in, ship out.” That phrase often captures the urgency felt in supply chain operations. There’s a strong and understandable impulse to prioritize speed—get products out the door, fill orders fast, and keep things moving. But in the race for efficiency, we often compromise on something more foundational: accuracy.',
     shares: 11,
@@ -52,7 +57,8 @@ export const blogPostList: BlogPostType[] = [
     }
   },
   {
-    title: 'Know Thyself, Focus on You: Data-Driven Intralogistics Is the Competitive Edge',
+    title: 'Know Thyself, Focus on You',
+    subtitle: 'Data-Driven Intralogistics Is the Competitive Edge',
     image: Post3,
     firstLine: "When businesses think about improving supply chain performance, the focus often jumps to transportation or last-mile delivery. But before any product reaches a truck or doorstep, it travels a more crucial path: inside your warehouse. This is where intralogistics—and more importantly, data about intralogistics—becomes the real competitive differentiator.",
     shares: 8,
@@ -64,7 +70,8 @@ export const blogPostList: BlogPostType[] = [
     }
   },
   // {
-  //   title: "It's a Lot About Data: How AI and Clean Data are Transforming the Supply Chain",
+  //   title: "It's a Lot About Data",
+  //   subtitle: 'How AI and Clean Data are Transforming the Supply Chain',
   //   image: Post4,
   //   firstLine: "When we think about supply chains, we often focus on trucks, warehouses, shipping containers, and inventory. At its core, supply chain management is about moving items from point A to point B. But underneath that physical movement lies a foundation that's arguably even more critical: data.",
   //   shares: 8,
@@ -77,6 +84,7 @@ export const blogPostList: BlogPostType[] = [
   // },
   // {
   //   title: "The Power of Data in Optimizing Intralogistics and Warehouse Management",
+  //   subtitle: '',
   //   image: Post5,
   //   firstLine: "Intralogistics is the backbone of any efficient supply chain, focusing on the internal flow of goods and information within a warehouse or distribution center. While it's easy to get caught up in the physical movement of materials, the true power behind optimizing intralogistics lies in data—specifically, how data drives material flow, warehouse management, and overall operational efficiency.",
   //   shares: 8,
