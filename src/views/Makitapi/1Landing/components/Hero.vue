@@ -25,13 +25,7 @@
       <b-col lg="6">
         <b-row class="row-cols-1 row-cols-sm-2 g-1">
           <b-col>
-            <div 
-              class="card-flip" 
-              :class="{ flipped: flippedCards.card1 }"
-              @touchend="toggleFlip('card1', $event)"
-              @click="handleClick('card1', $event)"
-              @mouseleave="handleMouseLeave('card1')"
-            >
+            <div class="card-flip">
               <div class="card-flip-inner">
                 <div class="card-flip-front rounded-3" style="background: linear-gradient(135deg, #0051a3, #3f7fca)">
                   <div class="d-flex flex-column h-100 justify-content-center align-items-center text-center" data-bs-theme="light">
@@ -61,13 +55,7 @@
           </b-col>
 
           <b-col>
-            <div 
-              class="card-flip" 
-              :class="{ flipped: flippedCards.card2 }"
-              @touchend="toggleFlip('card2', $event)"
-              @click="handleClick('card2', $event)"
-              @mouseleave="handleMouseLeave('card2')"
-            >
+            <div class="card-flip">
               <div class="card-flip-inner">
                 <div class="card-flip-front rounded-3" style="background: linear-gradient(135deg, #0051a3, #3f7fca)">
                   <div class="d-flex flex-column h-100 justify-content-center align-items-center text-center" data-bs-theme="light">
@@ -113,13 +101,7 @@
           </b-col>
 
           <b-col class="order-sm-2">
-            <div 
-              class="card-flip" 
-              :class="{ flipped: flippedCards.card3 }"
-              @touchend="toggleFlip('card3', $event)"
-              @click="handleClick('card3', $event)"
-              @mouseleave="handleMouseLeave('card3')"
-            >
+            <div class="card-flip">
               <div class="card-flip-inner">
                 <div class="card-flip-front rounded-3" style="background: linear-gradient(135deg, #0051a3, #3f7fca)">
                   <div class="d-flex flex-column h-100 justify-content-center align-items-center text-center" data-bs-theme="light">
@@ -175,13 +157,7 @@
           </b-col>
 
           <b-col class="order-sm-1">
-            <div 
-              class="card-flip" 
-              :class="{ flipped: flippedCards.card4 }"
-              @touchend="toggleFlip('card4', $event)"
-              @click="handleClick('card4', $event)"
-              @mouseleave="handleMouseLeave('card4')"
-            >
+            <div class="card-flip">
               <div class="card-flip-inner">
                 <div class="card-flip-front rounded-3" style="background: linear-gradient(135deg, #0051a3, #3f7fca)">
                   <div class="d-flex flex-column h-100 justify-content-center align-items-center text-center" data-bs-theme="light">
@@ -238,47 +214,6 @@
   </b-container>
 </template>
 
-<script>
-export default {
-  name: 'FlipCards',
-  data() {
-    return {
-      flippedCards: {
-        card1: false,
-        card2: false,
-        card3: false,
-        card4: false
-      },
-      isTouchDevice: false
-    }
-  },
-  mounted() {
-    this.isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-  },
-  methods: {
-    toggleFlip(cardId, event) {
-      event.preventDefault();
-      event.stopPropagation();
-      this.flippedCards[cardId] = !this.flippedCards[cardId];
-    },
-    handleClick(cardId, event) {
-      // Only handle click if not a touch device
-      if (!this.isTouchDevice) {
-        event.preventDefault();
-        event.stopPropagation();
-        this.flippedCards[cardId] = !this.flippedCards[cardId];
-      }
-    },
-    handleMouseLeave(cardId) {
-      // Only reset on mouse leave for non-touch devices
-      if (!this.isTouchDevice) {
-        this.flippedCards[cardId] = false;
-      }
-    }
-  }
-}
-</script>
-
 <style scoped>
 .rotating-word {
   opacity: 0;
@@ -308,61 +243,6 @@ export default {
   28.33% {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-.card-flip {
-  background-color: transparent;
-  width: 100%;
-  height: 300px;
-  perspective: 1000px;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-
-.card-flip-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s ease-in-out;
-  transform-style: preserve-3d;
-}
-
-.card-flip:hover .card-flip-inner {
-  transform: rotateY(180deg);
-}
-
-.card-flip.flipped .card-flip-inner {
-  transform: rotateY(180deg);
-}
-
-.card-flip-front, .card-flip-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  border: 1px solid #ddd;
-}
-
-.card-flip-back {
-  transform: rotateY(180deg);
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.card-flip-front {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Disable hover on touch devices */
-@media (hover: none) and (pointer: coarse) {
-  .card-flip:hover .card-flip-inner {
-    transform: rotateY(0deg);
   }
 }
 </style>
