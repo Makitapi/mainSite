@@ -21,7 +21,7 @@
         </div>
         <!-- End Rotating Text Animation -->
       </b-col>
-      
+
       <b-col lg="6">
         <b-row class="row-cols-1 row-cols-sm-2 g-1">
           <b-col>
@@ -214,14 +214,6 @@
   </b-container>
 </template>
 
-<script setup lang="ts">
-import clutchDark from '@/assets/img/brands/clutch-rating-dark.svg'
-import clutchLight from '@/assets/img/brands/clutch-rating-light.svg'
-import services01 from '@/assets/img/landing/creative-agency/services/01.jpg'
-import services02 from '@/assets/img/landing/creative-agency/services/02.jpg'
-import services04 from '@/assets/img/landing/creative-agency/services/04.jpg'
-import services03 from '@/assets/img/landing/creative-agency/services/03.jpg'
-</script>
 <style scoped>
 .rotating-word {
   opacity: 0;
@@ -251,6 +243,57 @@ import services03 from '@/assets/img/landing/creative-agency/services/03.jpg'
   28.33% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+.card-flip {
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.card-flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card-flip:hover .card-flip-inner,
+.card-flip.touched .card-flip-inner {
+  transform: rotateY(180deg);
+}
+
+.card-flip-front,
+.card-flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid #ddd;
+}
+
+.card-flip-back {
+  transform: rotateY(180deg);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-flip-front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Remove hover effects on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .card-flip:hover .card-flip-inner {
+    transform: none;
   }
 }
 </style>
