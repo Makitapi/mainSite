@@ -4,7 +4,13 @@ import { useAuthStore } from '@/stores/auth'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: allRoutes
+  routes: allRoutes, scrollBehavior(to, from, savedPosition) {
+    // Always scroll to top
+    return { top: 0 }
+    
+    // Or return nothing to disable scroll management entirely
+    // return
+  }
 })
 
 router.beforeEach((to, from, next) => {
