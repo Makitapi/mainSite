@@ -1,5 +1,5 @@
 const getTitle = (title: string) => {
-  return title ? `${title} | Makitapi - Revolutionary RFID Solutions for the Modern Value Chain` : 'Makitapi - Revolutionary RFID Solutions for the Modern Value Chain'
+  return title ? `${title} | Makitapi - Revolutionary RFID Solutions` : 'Makitapi - Revolutionary RFID Solutions for the Modern Value Chain'
 }
 
 // const landingRoutes = [
@@ -501,6 +501,7 @@ const myRoutes = [
     path: '/use-cases',
     name: 'UseCases',
     meta: {
+      title: getTitle('Use Cases'),
       breadcrumb: {
         label: 'Use Cases'
       }
@@ -511,6 +512,7 @@ const myRoutes = [
     path: '/blog',
     name: 'Blog',
     meta: {
+      title: getTitle('Blog'),
       breadcrumb: {
         label: 'Blog'
       }
@@ -581,6 +583,7 @@ const myRoutes = [
     path: '/projects',
     name: 'Projects',
     meta: {
+      title: getTitle('Projects'),
       breadcrumb: {
         label: 'Projects'
       }
@@ -591,9 +594,10 @@ const myRoutes = [
     path: '/projects/1',
     name: 'portfolio.single-1',
     meta: {
-      title: getTitle('Project1'),
+      title: getTitle('Project 1'),
       breadcrumb: {
-        label: 'E-commerce Platform'
+        label: 'Project 1',
+        parent: 'Projects' // Optional: explicit parent reference
       }
     },
     component: () => import('@/views/Makitapi/4Projects/Project1/index.vue')
@@ -602,9 +606,10 @@ const myRoutes = [
     path: '/projects/2',
     name: 'portfolio.single-2',
     meta: {
-      title: getTitle('Project'),
+      title: getTitle('Project 2'),
       breadcrumb: {
-        label: 'Task Management App'
+        label: 'Project 2',
+        parent: 'Projects' // Optional: explicit parent reference
       }
     },
     component: () => import('@/views/Makitapi/4Projects/Project2/index.vue')
@@ -613,6 +618,7 @@ const myRoutes = [
     path: '/contact',
     name: 'Contact',
     meta: {
+      title: getTitle('Contact'),
       breadcrumb: {
         label: 'Contact'
       }

@@ -59,7 +59,6 @@
 
 <script setup lang="ts">
 import NavBar from '@/components/NavBar/NavBar.vue'
-import Breadcrumb from '@/components/Breadcrumb.vue'
 import Jarallax from '@/components/Jarallax.vue'
 import coverImg from '@/assets/img/blog/Post1.jpeg'
 import singleImage from '@/assets/img/blog/post4.jpg'
