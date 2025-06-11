@@ -594,7 +594,7 @@ const myRoutes = [
     path: '/projects/1',
     name: 'portfolio.single-1',
     meta: {
-      title: getTitle('Project 1'),
+      title: getTitle('Project1'),
       breadcrumb: {
         label: 'Project 1',
         parent: 'Projects' // Optional: explicit parent reference
@@ -606,7 +606,7 @@ const myRoutes = [
     path: '/projects/2',
     name: 'portfolio.single-2',
     meta: {
-      title: getTitle('Project 2'),
+      title: getTitle('Project2'),
       breadcrumb: {
         label: 'Project 2',
         parent: 'Projects' // Optional: explicit parent reference

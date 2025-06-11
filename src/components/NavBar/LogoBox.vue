@@ -18,6 +18,6 @@
 
 </svg>
     </span>
-    <span class="d-none d-sm-inline" style="color: #333333; font-size: 1.2em;">Maki<span class="ms-0" style="color: #0051a3">tapi</span></span>
+    <span class="d-inline" style="color: #333333; font-size: clamp(0.9em, 2.5vw, 1.2em);">Maki<span class="ms-0" style="color: #0051a3">tapi</span></span>    
   </router-link>
 </template>
