@@ -38,5 +38,5 @@
 
 <script setup lang="ts">
 import Jarallax from '@/components/Jarallax.vue'
-import heroWave from '@/assets/img/usecases/hero-wave.png'
+import heroWave from '@/assets/img/usecases/herowave.png'
 </script>
