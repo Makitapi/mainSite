@@ -250,6 +250,7 @@
   width: 100%;
   height: 300px;
   perspective: 1000px;
+  cursor: pointer;
 }
 
 .card-flip-inner {
