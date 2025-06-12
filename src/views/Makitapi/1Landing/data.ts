@@ -55,6 +55,7 @@ import avatar18 from '@/assets/img/avatar/18.jpg'
 
 
 
+import inventory1 from '@/assets/img/useCases/01.jpg'
 
 import inventory01 from '@/assets/img/landing/web-studio/industries/01.jpg'
 import inventory02 from '@/assets/img/landing/web-studio/industries/02.jpg'
@@ -484,7 +485,7 @@ export const WhyMakitapi: ServiceType[] = [
 
 export const inventory: IndustryType[] = [
   {
-    image: inventory01,
+    image: inventory1,
     title: 'Gates for material monitoring',
     description: 'RFID gates offer automated bulk detection, significantly reducing processing time and errors. They integrate with visual indicators like stack lights, printers, and displays to provide comprehensive operational awareness and clear visibility of all material movements through seamless, remote monitoring capabilities.',
     key: 'gates'
