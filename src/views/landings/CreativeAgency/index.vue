@@ -29,8 +29,6 @@
 import NavBar from '@/components/NavBar/NavBar.vue'
 import Hero from '@/views/landings/CreativeAgency/components/Hero.vue'
 import Numbers from '@/views/landings/CreativeAgency/components/Numbers.vue'
-import RFID_Benefits from '@/views/landings/CreativeAgency/components/Benefits.vue'
-import Why_Makitapi from '@/views/landings/CreativeAgency/components/WhyMakitapi.vue'
 import HowItWorks from '@/views/landings/CreativeAgency/components/HowItWorks.vue'
 import Footer from '@/views/landings/CreativeAgency/components/Footer.vue'
 
