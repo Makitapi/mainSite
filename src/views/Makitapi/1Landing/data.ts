@@ -60,10 +60,10 @@ import inventory2 from '@/assets/img/useCases/02.jpg'
 import inventory3 from '@/assets/img/useCases/03.jpg'
 import inventory4 from '@/assets/img/useCases/04.jpg'
 
-import production1 from '@/assets/img/useCases/01.jpg'
+import production1 from '@/assets/img/useCases/inline1.png'
 import production2 from '@/assets/img/useCases/02.jpg'
 import production3 from '@/assets/img/useCases/03.jpg'
-import production4 from '@/assets/img/useCases/04.jpg'
+import production4 from '@/assets/img/useCases/inline1.png'
 import production5 from '@/assets/img/useCases/04.jpg'
 
 import industries1 from '@/assets/img/useCases/01.jpg'
