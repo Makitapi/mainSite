@@ -25,7 +25,7 @@
       <b-col lg="6">
         <b-row class="row-cols-1 row-cols-sm-2 g-1">
           <b-col>
-            <div class="card-flip">
+            <div class="card-flip" @click="toggleFlip" tabindex="0">
               <div class="card-flip-inner">
                 <div class="card-flip-front rounded-3" style="background: linear-gradient(135deg, #0051a3, #3f7fca)">
                   <div class="d-flex flex-column h-100 justify-content-center align-items-center text-center" data-bs-theme="light">
@@ -55,7 +55,7 @@
           </b-col>
 
           <b-col>
-            <div class="card-flip">
+            <div class="card-flip" @click="toggleFlip" tabindex="0">
               <div class="card-flip-inner">
                 <div class="card-flip-front rounded-3" style="background: linear-gradient(135deg, #0051a3, #3f7fca)">
                   <div class="d-flex flex-column h-100 justify-content-center align-items-center text-center" data-bs-theme="light">
@@ -246,3 +246,15 @@
   }
 }
 </style>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  methods: {
+    toggleFlip(event: MouseEvent) {
+      (event.currentTarget as HTMLElement)?.classList.toggle('flipped');
+    },
+  },
+});
+</script>

@@ -164,10 +164,18 @@
   transform: rotateY(180deg);
 }
 
-.card-flip:hover {
-  .card-flip-inner {
-    transform: rotateY(180deg);
-  }
+.card-flip:hover .card-flip-inner,
+.card-flip.flipped .card-flip-inner {
+  transform: rotateY(180deg);
+}
+
+.card-flip {
+  cursor: pointer;
+}
+
+.card-flip {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
 
 // Message box
