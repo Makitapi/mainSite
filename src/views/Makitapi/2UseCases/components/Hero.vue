@@ -11,7 +11,7 @@
             <h1 class="display-5 text-center text-lg-start mb-xxl-5">Common use cases<br><span class="text-primary"> for supply chain and manufactoring</span></h1>
           </b-col>
           <b-col lg="5" xl="4" class="offset-lg-1 offset-xxl-2 d-flex flex-column pt-2 pt-md-4">
-            <p class="text-body fs-xl text-center text-lg-start pb-2 pb-md-0 mb-4 mb-md-5">There are endless ways to capitalize on RFID solutions. Here's snap shot of the most common ones.</p>
+            <p class="text-body fs-xl text-center text-lg-start pb-2 pb-md-0 mb-4 mb-md-5">There are endless ways to capitalize on RFID solutions. Here's snapshot of the most common ones.</p>
             <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-lg-end pb-3 pb-sm-5">
               <a class="btn btn-lg btn-primary rounded-pill w-100 w-sm-auto me-sm-3 me-xl-4 mb-2 mb-sm-0" href="/contact">Contact us</a>
               <!-- <div class="btn btn-lg btn-link text-white w-100 w-sm-auto px-2">

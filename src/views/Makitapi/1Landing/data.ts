@@ -56,7 +56,7 @@ import avatar18 from '@/assets/img/avatar/18.jpg'
 
 
 import inventory1 from '@/assets/img/useCases/gate1.png'
-import inventory2 from '@/assets/img/useCases/arch1.png'
+import inventory2 from '@/assets/img/useCases/tunnel1.png'
 import inventory3 from '@/assets/img/useCases/arch1.png'
 import inventory4 from '@/assets/img/useCases/04.jpg'
 
