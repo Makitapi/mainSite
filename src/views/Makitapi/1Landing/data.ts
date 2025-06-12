@@ -60,11 +60,6 @@ import inventory2 from '@/assets/img/useCases/02.jpg'
 import inventory3 from '@/assets/img/useCases/03.jpg'
 import inventory4 from '@/assets/img/useCases/04.jpg'
 
-import inventory01 from '@/assets/img/landing/web-studio/industries/01.jpg'
-import inventory02 from '@/assets/img/landing/web-studio/industries/02.jpg'
-import inventory03 from '@/assets/img/landing/web-studio/industries/03.jpg'
-import inventory04 from '@/assets/img/landing/web-studio/industries/04.jpg'
-
 import production01 from '@/assets/img/landing/web-studio/industries/01.jpg'
 import production02 from '@/assets/img/landing/web-studio/industries/02.jpg'
 import production03 from '@/assets/img/landing/web-studio/industries/03.jpg'
