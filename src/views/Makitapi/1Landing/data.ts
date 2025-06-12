@@ -60,18 +60,17 @@ import inventory2 from '@/assets/img/useCases/02.jpg'
 import inventory3 from '@/assets/img/useCases/03.jpg'
 import inventory4 from '@/assets/img/useCases/04.jpg'
 
-import production01 from '@/assets/img/landing/web-studio/industries/01.jpg'
-import production02 from '@/assets/img/landing/web-studio/industries/02.jpg'
-import production03 from '@/assets/img/landing/web-studio/industries/03.jpg'
-import production04 from '@/assets/img/landing/web-studio/industries/04.jpg'
-import production05 from '@/assets/img/landing/web-studio/industries/01.jpg'
+import production1 from '@/assets/img/useCases/01.jpg'
+import production2 from '@/assets/img/useCases/02.jpg'
+import production3 from '@/assets/img/useCases/03.jpg'
+import production4 from '@/assets/img/useCases/04.jpg'
+import production5 from '@/assets/img/useCases/04.jpg'
 
-import industries01 from '@/assets/img/landing/web-studio/industries/01.jpg'
-import industries02 from '@/assets/img/landing/web-studio/industries/02.jpg'
-import industries03 from '@/assets/img/landing/web-studio/industries/03.jpg'
-import industries04 from '@/assets/img/landing/web-studio/industries/04.jpg'
-import industries05 from '@/assets/img/landing/web-studio/industries/02.jpg'
-
+import industries1 from '@/assets/img/useCases/01.jpg'
+import industries2 from '@/assets/img/useCases/02.jpg'
+import industries3 from '@/assets/img/useCases/03.jpg'
+import industries4 from '@/assets/img/useCases/04.jpg'
+import industries5 from '@/assets/img/useCases/04.jpg'
 
 import caseStudy1 from '@/assets/img/landing/marketing-agency/case-studies/01.jpg'
 import caseStudy2 from '@/assets/img/landing/marketing-agency/case-studies/02.jpg'
@@ -510,31 +509,31 @@ export const inventory: IndustryType[] = [
 
 export const production: IndustryType[] = [
   {
-    image: production01,
+    image: production1,
     title: 'High-Speed In-Line Systems',
     description: "High-speed in-line control provides real-time, item-by-item verification in high-volume production environments. It seamlessly integrates with existing systems, maintaining production speed while conducting thorough quality checks. The system automatically captures and analyzes product data, verifying quality, quantity, and specifications with minimal latency, ensuring only compliant products proceed.",
     key: 'inline'
   },
   {
-    image: production02,
+    image: production2,
     title: 'Inline Assortment Audit',
     description: "Inline assortment control ensures accuracy and completeness of product kits during assembly. Using RFID, barcode scanning, or computer vision, it verifies each component against predefined requirements in real-time without disrupting operations. This prevents incomplete shipments, reduces manual audits, and enhances efficiency by automating quality checks.",
     key: 'assortment'
   },
   {
-    image: production03,
+    image: production3,
     title: 'Container Audit Solutions',
     description: "Container audit solutions ensure accuracy across the entire fulfillment process—inbound, outbound, and pick & pack operations. Using RFID, barcode scanning, or sensors, they provide real-time verification of items, matching receipts to purchase orders and confirming correct shipment assembly, while creating auditable trails for compliance.",
     key: 'container'
   },
   {
-    image: production04,
+    image: production4,
     title: 'Digital Kanban Systems',
     description: "RFID-powered digital kanban systems eliminate manual card-based methods, providing real-time material consumption data to ERP systems for automated inventory replenishment. They enable instant access to production metrics, maintaining transparent material flow while reducing inventory levels to optimal minimums and eliminating human errors.",
     key: 'kanban'
   },
   {
-    image: production05,
+    image: production5,
     title: 'Sorter optimization',
     description: "RFID eliminates barcode positioning requirements, reducing processing time from 5-9 seconds to 1 second per item regardless of orientation. This 80-90% time reduction enables massive labor savings—one facility reduced sorting staff from 7-9 operators to 1 while processing 3 million items annually with simultaneous reading capabilities.",
     key: 'sorter'
@@ -543,31 +542,31 @@ export const production: IndustryType[] = [
 
 export const industries: IndustryType[] = [
   {
-    image: industries01,
+    image: industries1,
     title: 'Manufacturing',
     description: 'Real-time work-in-progress tracking, automated quality checkpoints, lean manufacturing integration. Reduces production delays, inventory errors, and enables seamless supply chain visibility.',
     key: 'manufacturing'
   },
   {
-    image: industries02,
+    image: industries2,
     title: 'Retail',
     description: 'Inventory accuracy jumps from 60-70% to 95%+. High SKU variations, rapid seasonal turnover, omnichannel fulfillment demands require precise tracking capabilities.',
     key: 'retail'
   },
   {
-    image: industries03,
+    image: industries3,
     title: 'Logistics',
     description: "Multi-client operational complexity requires advanced tracking. RFID enables sophisticated SLA reporting, operational transparency, and service differentiation in competitive market.",
     key: '3pl'
   },
   {
-    image: industries05,
+    image: industries5,
     title: 'Automotive',
     description: "Parts traceability, just-in-time delivery, quality control automation",
     key: 'automotive'
   },
   {
-    image: industries04,
+    image: industries4,
     title: 'Food and Beverage',
     description: "Farm-to-fork traceability for food safety compliance (lot and expiration date tracking). Automated expiration date tracking, FIFO rotation, temperature monitoring for perishable inventory management.",
     key: 'food'
