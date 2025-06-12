@@ -56,6 +56,9 @@ import avatar18 from '@/assets/img/avatar/18.jpg'
 
 
 import inventory1 from '@/assets/img/useCases/01.jpg'
+import inventory2 from '@/assets/img/useCases/02.jpg'
+import inventory3 from '@/assets/img/useCases/03.jpg'
+import inventory4 from '@/assets/img/useCases/04.jpg'
 
 import inventory01 from '@/assets/img/landing/web-studio/industries/01.jpg'
 import inventory02 from '@/assets/img/landing/web-studio/industries/02.jpg'
@@ -491,19 +494,19 @@ export const inventory: IndustryType[] = [
     key: 'gates'
   },
   {
-    image: inventory02,
+    image: inventory2,
     title: 'Tunnels for high tag density',
     description: 'RFID tunnels enable rapid identification of multiple items at high conveyor speeds in dense configurations. They automatically transmit critical data—material verification, location, and timestamps—directly to host IT systems without manual intervention. Near-real-time integration with WMS, ERP, and quality assurance platforms maximizes operational value.',
     key: 'tunnels'
   },
   {
-    image: inventory03,
+    image: inventory3,
     title: 'Arches for specific conditions',
     description: "RFID arches provide cost-effective identification for specific items or smaller tag quantities where full tunnels aren't justified. They excel at selective monitoring of individual objects or small batches, capturing verification, location, and timestamp data. Real-time integration with inventory management, ERP, and compliance systems optimizes ROI.",
     key: 'arches'
   },
   {
-    image: inventory04,
+    image: inventory4,
     title: 'VAS for quality control',
     description: "RFID value-added stations serve as quality checkpoints, ensuring accuracy during pallet, container, and box assembly. They enable real-time audits as items are loaded, providing detailed documentation of load composition. Tags capture individual item data for verification against order specifications while creating full traceability records.",
     key: 'vas'
