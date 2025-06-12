@@ -72,6 +72,10 @@ import { inventory } from '@/views/Makitapi/1Landing/data'
 import { production } from '@/views/Makitapi/1Landing/data'
 
 // Separate refs for each section, initialized with first item's key
-const showInventory = ref('arches')
-const showProduction = ref('kanban')
+const showInventory = ref('gates')
+const showProduction = ref('inline')
 </script>
+
+import production0 from '@/assets/img/useCases/production0.png'
+
+
