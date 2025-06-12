@@ -56,8 +56,8 @@ import avatar18 from '@/assets/img/avatar/18.jpg'
 
 
 import inventory1 from '@/assets/img/useCases/gate1.png'
-import inventory2 from '@/assets/img/useCases/02.jpg'
-import inventory3 from '@/assets/img/useCases/03.jpg'
+import inventory2 from '@/assets/img/useCases/arch1.png'
+import inventory3 from '@/assets/img/useCases/arch1.png'
 import inventory4 from '@/assets/img/useCases/04.jpg'
 
 import production1 from '@/assets/img/useCases/inline1.png'
@@ -483,25 +483,25 @@ export const WhyMakitapi: ServiceType[] = [
 export const inventory: IndustryType[] = [
   {
     image: inventory1,
-    title: 'Gates for material monitoring',
+    title: 'Gates',
     description: 'RFID gates offer automated bulk detection, significantly reducing processing time and errors. They integrate with visual indicators like stack lights, printers, and displays to provide comprehensive operational awareness and clear visibility of all material movements through seamless, remote monitoring capabilities.',
     key: 'gates'
   },
   {
     image: inventory2,
-    title: 'Tunnels for high tag density',
-    description: 'RFID tunnels enable rapid identification of multiple items at high conveyor speeds in dense configurations. They automatically transmit critical data—material verification, location, and timestamps—directly to host IT systems without manual intervention. Near-real-time integration with WMS, ERP, and quality assurance platforms maximizes operational value.',
+    title: 'Tunnels',
+    description: 'RFID tunnels enable rapid identification of multiple items at high conveyor speeds in high tag density scenarios. They automatically transmit critical data—material verification, location, and timestamps—directly to host IT systems without manual intervention. Near-real-time integration with WMS, ERP, and quality assurance platforms maximizes operational value.',
     key: 'tunnels'
   },
   {
     image: inventory3,
-    title: 'Arches for specific conditions',
+    title: 'Arches',
     description: "RFID arches provide cost-effective identification for specific items or smaller tag quantities where full tunnels aren't justified. They excel at selective monitoring of individual objects or small batches, capturing verification, location, and timestamp data. Real-time integration with inventory management, ERP, and compliance systems optimizes ROI.",
     key: 'arches'
   },
   {
     image: inventory4,
-    title: 'VAS for quality control',
+    title: 'Value Added Stations',
     description: "RFID value-added stations serve as quality checkpoints, ensuring accuracy during pallet, container, and box assembly. They enable real-time audits as items are loaded, providing detailed documentation of load composition. Tags capture individual item data for verification against order specifications while creating full traceability records.",
     key: 'vas'
   }
@@ -510,19 +510,19 @@ export const inventory: IndustryType[] = [
 export const production: IndustryType[] = [
   {
     image: production1,
-    title: 'High-Speed In-Line Systems',
+    title: 'High-speed in-line',
     description: "High-speed in-line control provides real-time, item-by-item verification in high-volume production environments. It seamlessly integrates with existing systems, maintaining production speed while conducting thorough quality checks. The system automatically captures and analyzes product data, verifying quality, quantity, and specifications with minimal latency, ensuring only compliant products proceed.",
     key: 'inline'
   },
   {
     image: production2,
-    title: 'Inline Assortment Audit',
+    title: 'In-line kits',
     description: "Inline assortment control ensures accuracy and completeness of product kits during assembly. Using RFID, barcode scanning, or computer vision, it verifies each component against predefined requirements in real-time without disrupting operations. This prevents incomplete shipments, reduces manual audits, and enhances efficiency by automating quality checks.",
     key: 'assortment'
   },
   {
     image: production3,
-    title: 'Digital Kanban Systems',
+    title: 'Digital Kanban',
     description: "RFID-powered digital kanban systems eliminate manual card-based methods, providing real-time material consumption data to ERP systems for automated inventory replenishment. They enable instant access to production metrics, maintaining transparent material flow while reducing inventory levels to optimal minimums and eliminating human errors.",
     key: 'kanban'
   },
