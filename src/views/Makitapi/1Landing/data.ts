@@ -511,25 +511,25 @@ export const production: IndustryType[] = [
   {
     image: production1,
     title: 'High-speed in-line',
-    description: "High-speed in-line control provides real-time, item-by-item verification in high-volume production environments. It seamlessly integrates with existing systems, maintaining production speed while conducting thorough quality checks. The system automatically captures and analyzes product data, verifying quality, quantity, and specifications with minimal latency, ensuring only compliant products proceed.",
+    description: "High-speed production lines processing up to 10 items per second benefit from RFID's real-time, item-by-item verification without affecting throughput. The system captures and analyzes product data with minimal latency and no line-of-sight requirements, ensuring non-compliant products are diverted.",
     key: 'inline'
   },
   {
     image: production2,
-    title: 'In-line kits',
-    description: "Inline assortment control ensures accuracy and completeness of product kits during assembly. Using RFID, barcode scanning, or computer vision, it verifies each component against predefined requirements in real-time without disrupting operations. This prevents incomplete shipments, reduces manual audits, and enhances efficiency by automating quality checks.",
+    title: 'In-line kits audit',
+    description: "Inline kit control uses RFID to verify components against requirements in real-time during assembly without disrupting operations. It reduces downtime, unfinished goods, and manual audits while automating quality checks and catching errors early in the value chain.",
     key: 'assortment'
   },
   {
     image: production3,
     title: 'Digital Kanban',
-    description: "RFID-powered digital kanban systems eliminate manual card-based methods, providing real-time material consumption data to ERP systems for automated inventory replenishment. They enable instant access to production metrics, maintaining transparent material flow while reducing inventory levels to optimal minimums and eliminating human errors.",
+    description: "RFID digital kanban systems replace manual cards, giving real-time consumption data to ERP systems for automated replenishment. They provide instant production metrics, maintain transparent material flow, and reduce inventory to optimal levels while eliminating human errors.",
     key: 'kanban'
   },
   {
     image: production4,
     title: 'Sorter optimization',
-    description: "RFID eliminates barcode positioning requirements, reducing processing time from 5-9 seconds to 1 second per item regardless of orientation. This 80-90% time reduction enables massive labor savings—one facility reduced sorting staff from 7-9 operators to 1 while processing 3 million items annually with simultaneous reading capabilities.",
+    description: "Using RFID in sorter feeding stations greatly boosts efficiency by eliminating barcode positioning requirements - items are read in any orientation. While saving just seconds per feed seems minor, this compounds across multiple stations, shifts, and millions of items. Some sorters can increase speed/load by 2-4 times.",
     key: 'sorter'
   }
 ]

@@ -1,7 +1,7 @@
 <template>
   <b-container class="py-5 mt-2 mt-sm-3 mt-md-4">
     <h2 class="h1 text-center pt-lg-3">Industries we work with</h2>
-    <p class="pb-3 pb-md-4 mb-0 mb-sm-2 mb-lg-3 text-center">Most of our projcts come from the industries below.</p>
+    <p class="pb-3 pb-md-4 mb-0 mb-sm-2 mb-lg-3 text-center">Most of our projects come from the industries below.</p>
     <b-row class="align-items-lg-center">
       <b-col md="6" lg="5" class="pb-2 pb-lg-0 mb-4 mb-md-0">
         <b-accordion class="accordion-alt">
