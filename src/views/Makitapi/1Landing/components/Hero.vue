@@ -101,7 +101,7 @@
           </b-col>
 
           <b-col class="order-sm-2">
-            <div class="card-flip">
+            <div class="card-flip" @click="toggleFlip" tabindex="0">
               <div class="card-flip-inner">
                 <div class="card-flip-front rounded-3" style="background: linear-gradient(135deg, #0051a3, #3f7fca)">
                   <div class="d-flex flex-column h-100 justify-content-center align-items-center text-center" data-bs-theme="light">
@@ -157,7 +157,7 @@
           </b-col>
 
           <b-col class="order-sm-1">
-            <div class="card-flip">
+            <div class="card-flip" @click="toggleFlip" tabindex="0">
               <div class="card-flip-inner">
                 <div class="card-flip-front rounded-3" style="background: linear-gradient(135deg, #0051a3, #3f7fca)">
                   <div class="d-flex flex-column h-100 justify-content-center align-items-center text-center" data-bs-theme="light">
