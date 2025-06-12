@@ -61,10 +61,10 @@ import inventory3 from '@/assets/img/useCases/03.jpg'
 import inventory4 from '@/assets/img/useCases/04.jpg'
 
 import production1 from '@/assets/img/useCases/inline1.png'
-import production2 from '@/assets/img/useCases/02.jpg'
-import production3 from '@/assets/img/useCases/03.jpg'
+import production2 from '@/assets/img/useCases/assortment1.png'
+import production3 from '@/assets/img/useCases/kanban1.png'
 import production4 from '@/assets/img/useCases/inline1.png'
-import production5 from '@/assets/img/useCases/04.jpg'
+import production0 from '@/assets/img/useCases/production0.png'
 
 import industries1 from '@/assets/img/useCases/01.jpg'
 import industries2 from '@/assets/img/useCases/02.jpg'
@@ -522,18 +522,12 @@ export const production: IndustryType[] = [
   },
   {
     image: production3,
-    title: 'Container Audit Solutions',
-    description: "Container audit solutions ensure accuracy across the entire fulfillment process—inbound, outbound, and pick & pack operations. Using RFID, barcode scanning, or sensors, they provide real-time verification of items, matching receipts to purchase orders and confirming correct shipment assembly, while creating auditable trails for compliance.",
-    key: 'container'
-  },
-  {
-    image: production4,
     title: 'Digital Kanban Systems',
     description: "RFID-powered digital kanban systems eliminate manual card-based methods, providing real-time material consumption data to ERP systems for automated inventory replenishment. They enable instant access to production metrics, maintaining transparent material flow while reducing inventory levels to optimal minimums and eliminating human errors.",
     key: 'kanban'
   },
   {
-    image: production5,
+    image: production4,
     title: 'Sorter optimization',
     description: "RFID eliminates barcode positioning requirements, reducing processing time from 5-9 seconds to 1 second per item regardless of orientation. This 80-90% time reduction enables massive labor savings—one facility reduced sorting staff from 7-9 operators to 1 while processing 3 million items annually with simultaneous reading capabilities.",
     key: 'sorter'
