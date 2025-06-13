@@ -39,8 +39,8 @@ export type ListType = {
 export const listData: ListType[] = [
   {
     image: list6Img,
-    title: 'From 5 Seconds to 1',
-    description: 'More items, less labor | How RFID transformation saved thousands of hours of scanning time per year',
+    title: 'From 5 to 1 sec',
+    description: 'More items, less labor, faster operations | How RFID transformation saved thousands of hours of scanning time per year',
     brand: { image: { light: championLight, dark: championDarkImg } },
     // awards: [ { image: { light: vuejsLightImg, dark: vuejsDarkImg } } , {image: { light: deloitteLightImg, dark: deloitteDarkImg }}],
     variant: 'primary',

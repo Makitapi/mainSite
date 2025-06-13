@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    <div class="bg-primary bg-opacity-10 rounded-5 py-5 px-4 p-sm-5">
+    <div class="bg-primary bg-opacity-10 rounded-5 py-5 px-4 p-sm-5 mb-5">
       <div class="d-lg-flex align-items-center g-0 py-2 py-sm-3 py-md-4 p-xl-5">
         <div class="order-lg-2 text-center text-lg-start ps-lg-5 mx-auto me-lg-0">
           <h2 class="h1 mb-4">The tools <br class="d-none d-lg-inline" />we work with</h2>
