@@ -1,14 +1,26 @@
 <template>
   <b-container fluid class="px-sm-4 px-md-5">
     <div class="bg-dark rounded-5 position-relative overflow-hidden py-1 px-1 px-sm-2 px-xl-3 mt-1 mx-md-n3 mx-lg-auto" style="max-width: 1660px" data-bs-theme="dark">
-      <Jarallax custom-class="jarallax position-absolute top-0 start-0 w-100 h-100 mt-5" :options="{ speed: 0.6 }">
-        <div class="jarallax-img position-absolute w-100 h-100" :style="{ backgroundImage: `url(${heroWave})` }"></div>
+      <Jarallax
+        custom-class="jarallax position-absolute w-100 h-100"
+        :custom-style="{
+          width: 'calc(100% + 40px)',
+          height: 'calc(100% + 40px)'
+        }"
+        :options="{
+          speed: 0.6,
+          imgSrc: heroWave,
+          imgSize: 'cover',
+          imgPosition: 'center center'
+        }"
+      >
       </Jarallax>
+
       <div class="bg-white position-absolute top-0 start-0 w-100 h-100" style="opacity: 2%"></div>
       <b-container class="position-relative z-2 pt-xl-4 pt-xxl-5 pb-sm-2">
         <b-row class="pt-md-3 pt-lg-5">
           <b-col lg="6" xxl="5" class="pb-lg-5 mb-xl-5">
-            <h1 class="display-5 text-center text-lg-start mb-xxl-5">Common use cases<br><span class="text-info"> for supply chain and manufactoring</span></h1>
+            <h1 class="display-5 text-center text-lg-start mb-xxl-5">Common use cases<br /><span class="text-info"> for supply chain and manufactoring</span></h1>
           </b-col>
           <b-col lg="5" xl="4" class="offset-lg-1 offset-xxl-2 d-flex flex-column pt-2 pt-md-4">
             <p class="text-body fs-xl text-center text-lg-start pb-2 pb-md-0 mb-4 mb-md-5">There are endless ways to capitalize on RFID solutions. Here's snapshot of the most common ones.</p>
@@ -38,5 +50,5 @@
 
 <script setup lang="ts">
 import Jarallax from '@/components/Jarallax.vue'
-import heroWave from '@/assets/img/landing/web-studio/hero-wave.png'
+import heroWave from '@/assets/img/useCases/herowaveRFID.png'
 </script>
