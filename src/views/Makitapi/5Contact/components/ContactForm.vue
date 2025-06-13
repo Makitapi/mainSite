@@ -2,7 +2,8 @@
   <b-row>
     <b-col lg="4" class="pe-xxl-4">
       <h1 class="display-2">Contacts</h1>
-      <p class="fs-lg pb-4 mb-0 mb-sm-2">We'd love to hear from you, get in touch.</p>
+      <p class="fs-lg pb-4 mb-0 mb-sm-2">We're a motivated team of RFID and (intra)logistics experts dedicated to transforming complex value chain challenges into simple, innovative solutions.<br>In today's fast-paced business environment, we understand that efficiency isn't just an advantage — it's paramount.<br>
+        Our approach is straightforward: combine cutting-edge RFID technology with deep logistics process expertise to deliver systems that work seamlessly from day one.</p>
     </b-col>
     <b-col lg="8" xl="7" class="offset-xl-1">
       <!-- Thank you message -->
