@@ -18,7 +18,7 @@
 
     <!-- <Reviews /> -->
 
-    <!-- <HWbrands /> -->
+    <HWbrands />
 
   </main>
 

@@ -70,7 +70,7 @@ import industries1 from '@/assets/img/useCases/01.jpg'
 import industries2 from '@/assets/img/useCases/02.jpg'
 import industries3 from '@/assets/img/useCases/03.jpg'
 import industries4 from '@/assets/img/useCases/04.jpg'
-import industries5 from '@/assets/img/useCases/04.jpg'
+import industries5 from '@/assets/img/useCases/05.jpg'
 
 import caseStudy1 from '@/assets/img/landing/marketing-agency/case-studies/01.jpg'
 import caseStudy2 from '@/assets/img/landing/marketing-agency/case-studies/02.jpg'
@@ -538,31 +538,31 @@ export const industries: IndustryType[] = [
   {
     image: industries1,
     title: 'Manufacturing',
-    description: 'Real-time work-in-progress tracking, automated quality checkpoints, lean manufacturing integration. Reduces production delays, inventory errors, and enables seamless supply chain visibility.',
+    description: 'Streamline production workflows, monitor work-in-progress status, optimize equipment utilization, and ensure quality compliance through automated tracking systems and real-time visibility.',
     key: 'manufacturing'
   },
   {
     image: industries2,
     title: 'Retail',
-    description: 'Inventory accuracy jumps from 60-70% to 95%+. High SKU variations, rapid seasonal turnover, omnichannel fulfillment demands require precise tracking capabilities.',
+    description: 'Enhance inventory accuracy, prevent stockouts, reduce shrinkage, improve customer satisfaction, and optimize product placement through comprehensive merchandise tracking and analytics solutions.',
     key: 'retail'
   },
   {
     image: industries3,
     title: 'Logistics',
-    description: "Multi-client operational complexity requires advanced tracking. RFID enables sophisticated SLA reporting, operational transparency, and service differentiation in competitive market.",
+    description: "Accelerate package sorting, improve delivery accuracy, optimize route planning, reduce handling errors, and enhance customer visibility through automated tracking and distribution optimization.",
     key: '3pl'
   },
   {
-    image: industries5,
+    image: industries4,
     title: 'Automotive',
-    description: "Parts traceability, just-in-time delivery, quality control automation",
+    description: "Track parts throughout assembly, ensure quality standards, manage recalls efficiently, optimize supply chains, and maintain compliance through precise component identification and traceability.",
     key: 'automotive'
   },
   {
-    image: industries4,
+    image: industries5,
     title: 'Food and Beverage',
-    description: "Farm-to-fork traceability for food safety compliance (lot and expiration date tracking). Automated expiration date tracking, FIFO rotation, temperature monitoring for perishable inventory management.",
+    description: "Farm-to-fork traceability for food safety compliance. Automated expiration date tracking, FIFO rotation, optimize cold chain management, temperature monitoring for perishable inventory management.",
     key: 'food'
   }
 ]
