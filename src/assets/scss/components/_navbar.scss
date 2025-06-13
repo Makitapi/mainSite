@@ -92,31 +92,31 @@
   }
 }
 
-[aria-expanded='true'] {
-  .navbar-toggler-icon {
-    transition-delay: 0.12s;
-    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    transform: rotate(45deg);
-    &::before,
-    &::after {
-      width: $navbar-toggler-bar-width;
-    }
-    &::before {
-      top: 0;
-      opacity: 0;
-      transition:
-        top 0.075s ease,
-        opacity 0.075s 0.12s ease;
-    }
-    &::after {
-      bottom: 0;
-      transition:
-        bottom 0.075s ease,
-        transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
-      transform: rotate(-90deg);
-    }
-  }
-}
+// [aria-expanded='true'] {
+//   .navbar-toggler-icon {
+//     transition-delay: 0.12s;
+//     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+//     transform: rotate(45deg);
+//     &::before,
+//     &::after {
+//       width: $navbar-toggler-bar-width;
+//     }
+//     &::before {
+//       top: 0;
+//       opacity: 0;
+//       transition:
+//         top 0.075s ease,
+//         opacity 0.075s 0.12s ease;
+//     }
+//     &::after {
+//       bottom: 0;
+//       transition:
+//         bottom 0.075s ease,
+//         transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+//       transform: rotate(-90deg);
+//     }
+//   }
+// }
 
 // Navbar dropdowns
 
