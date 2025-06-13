@@ -12,7 +12,7 @@
       >
       </Jarallax>
 
-      <div class="bg-white position-absolute top-0 start-0 w-100 h-100" style="opacity: 2%"></div>
+      <div class="bg-black position-absolute top-0 start-0 w-100 h-100" style="opacity: 2%"></div>
       <b-container class="position-relative z-2 pt-xl-4 pt-xxl-5 pb-sm-2">
         <b-row class="pt-md-3 pt-lg-5">
           <b-col lg="6" xxl="5" class="pb-lg-5 mb-xl-5">
