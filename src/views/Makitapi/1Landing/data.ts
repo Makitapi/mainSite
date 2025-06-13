@@ -58,12 +58,12 @@ import avatar18 from '@/assets/img/avatar/18.jpg'
 import inventory1 from '@/assets/img/useCases/gate1.png'
 import inventory2 from '@/assets/img/useCases/tunnel1.png'
 import inventory3 from '@/assets/img/useCases/arch1.png'
-import inventory4 from '@/assets/img/useCases/04.jpg'
+import inventory4 from '@/assets/img/useCases/vas1.png'
 
 import production1 from '@/assets/img/useCases/inline1.png'
 import production2 from '@/assets/img/useCases/assortment1.png'
 import production3 from '@/assets/img/useCases/kanban1.png'
-import production4 from '@/assets/img/useCases/inline1.png'
+import production4 from '@/assets/img/useCases/sorter1.png'
 import production0 from '@/assets/img/useCases/production0.png'
 
 import industries1 from '@/assets/img/useCases/01.jpg'
@@ -482,16 +482,16 @@ export const WhyMakitapi: ServiceType[] = [
 
 export const inventory: IndustryType[] = [
   {
+    image: inventory4,
+    title: 'Value Added Stations',
+    description: "RFID value-added stations serve as quality checkpoints, ensuring accuracy during pallet, container, and box assembly. They enable real-time audits as items are loaded, providing detailed documentation of load composition. Tags capture individual item data for verification against order specifications while creating full traceability records.",
+    key: 'vas'
+  },
+  {
     image: inventory1,
     title: 'Gates',
     description: 'RFID gates offer automated bulk detection, significantly reducing processing time and errors. They integrate with visual indicators like stack lights, printers, and displays to provide comprehensive operational awareness and clear visibility of all material movements through seamless, remote monitoring capabilities.',
     key: 'gates'
-  },
-  {
-    image: inventory2,
-    title: 'Tunnels',
-    description: 'RFID tunnels enable rapid identification of multiple items at high conveyor speeds in high tag density scenarios. They automatically transmit critical data—material verification, location, and timestamps—directly to host IT systems without manual intervention. Near-real-time integration with WMS, ERP, and quality assurance platforms maximizes operational value.',
-    key: 'tunnels'
   },
   {
     image: inventory3,
@@ -500,10 +500,10 @@ export const inventory: IndustryType[] = [
     key: 'arches'
   },
   {
-    image: inventory4,
-    title: 'Value Added Stations',
-    description: "RFID value-added stations serve as quality checkpoints, ensuring accuracy during pallet, container, and box assembly. They enable real-time audits as items are loaded, providing detailed documentation of load composition. Tags capture individual item data for verification against order specifications while creating full traceability records.",
-    key: 'vas'
+    image: inventory2,
+    title: 'Tunnels',
+    description: 'RFID tunnels enable rapid identification of multiple items at high conveyor speeds in high tag density scenarios. They automatically transmit critical data—material verification, location, and timestamps—directly to host IT systems without manual intervention. Near-real-time integration with WMS, ERP, and quality assurance platforms maximizes operational value.',
+    key: 'tunnels'
   }
 ]
 
