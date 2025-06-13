@@ -1,11 +1,11 @@
 <template>
   <b-container fluid class="px-sm-4 px-md-5">
-    <div class="bg-dark rounded-5 position-relative overflow-hidden py-1 px-1 px-sm-2 px-xl-3 mt-1 mx-md-n3 mx-lg-auto" style="max-width: 1660px" data-bs-theme="dark">
+    <div class="bg-dark rounded-5 position-relative overflow-hidden px-sm-2 px-xl-3 mt-1 mx-md-n3 mx-lg-auto" style="max-width: 1660px" data-bs-theme="dark">
       <Jarallax
         custom-class="jarallax position-absolute w-100 h-100"
         :custom-style="{
-          width: 'calc(100% + 40px)',
-          height: 'calc(100% + 40px)'
+          width: 'calc(100% + 60px)',
+          height: 'calc(100% + 60px)'
         }"
         :options="{
           speed: 0.6,
