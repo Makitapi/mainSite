@@ -2,7 +2,7 @@
   <b-row>
     <b-col lg="4" class="pe-xxl-4">
       <h1 class="display-2">Contacts</h1>
-      <p class="fs-lg pb-4 mb-0 mb-sm-2">Get in touch with us by completing the form.</p>
+      <p class="fs-lg pb-4 mb-0 mb-sm-2">We'd love to hear from you, get in touch.</p>
     </b-col>
     <b-col lg="8" xl="7" class="offset-xl-1">
       <b-form class="row g-4 needs-validation" novalidate>
@@ -15,7 +15,12 @@
         <b-col sm="6">
           <b-form-group label="Email">
             <b-form-input size="lg" type="email" placeholder="Email address" required id="email" />
-            <b-form-invalid-feedback>Please provide a valid email address!</b-form-invalid-feedback>
+            <b-form-invalid-feedback>Please provide a valid email address.</b-form-invalid-feedback>
+          </b-form-group>
+        </b-col>
+        <b-col sm="6">
+          <b-form-group label="Company">
+            <b-form-input size="lg" type="text" placeholder="Your company" id="company" />
           </b-form-group>
         </b-col>
         <b-col sm="6">
@@ -26,7 +31,7 @@
         <b-col sm="12">
           <b-form-group label="How can we help?">
             <b-form-textarea size="lg" rows="5" placeholder="Enter your message here..." required id="message"></b-form-textarea>
-            <b-form-invalid-feedback>Please enter your message!</b-form-invalid-feedback>
+            <b-form-invalid-feedback>Please enter your message.</b-form-invalid-feedback>
           </b-form-group>
         </b-col>
         <b-col sm="12" class="pt-1">
