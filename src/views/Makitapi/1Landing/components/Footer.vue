@@ -10,11 +10,11 @@
           <a class="btn btn-lg btn-primary rounded-3 me-sm-3 me-lg-4" href="/contact">Contact us</a>
         </div>
 
-        <!-- <div class="d-flex justify-content-center justify-content-md-start me-md-n2">
-          <a class="btn btn-icon btn-sm btn-secondary btn-linkedin rounded-circle mx-2" href="#" aria-label="LinkedIn">
+        <div class="d-flex justify-content-center justify-content-md-start me-md-n2">
+          <a class="btn btn-icon btn-sm btn-secondary btn-linkedin rounded-circle mx-2" href="http://linkedin.com/company/makitapi" aria-label="LinkedIn">
             <i class="ai-linkedin"></i>
           </a>
-        </div> -->
+        </div>
       </div>
       <div class="d-md-flex align-items-center justify-content-between pb-1 pb-md-0">
         <p class="nav fs-sm pt-3 pb-2 pb-lg-0 mb-0">
