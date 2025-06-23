@@ -96,7 +96,7 @@
           <div class="pe-md-4 pe-lg-0">
             <span class="badge fs-sm bg-primary bg-opacity-10 text-primary mb-3 mb-lg-4">Step 03</span>
             <h3 class="h2 mb-3 mb-lg-4">Rollout with Continuous Evolution</h3>
-            <p class="pb-1 pb-lg-0 mb-4 mb-lg-5">Execute a stage-gate rollout using 80/20 approach, focusing on high-impact integrations while building long-term capabilities.</p>
+            <p class="pb-1 pb-lg-0 mb-4 mb-lg-5">Execute a phased deployment grounded on 80/20 principles to maximum-impact with the least amount of effort but without compromising on long-term/future capabilities.</p>
             <!-- <router-link class="btn btn-outline-primary rounded-pill" to="#">Reachout to us</router-link> -->
           </div>
         </b-col>
