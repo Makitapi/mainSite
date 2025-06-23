@@ -25,7 +25,7 @@
       <b-col lg="6">
         <b-row class="row-cols-1 row-cols-sm-2 g-1">
           <b-col>
-            <div class="card-flip" @click="toggleFlip" tabindex="0">
+            <div class="card-flip" :class="{ flipped: flippedCard === 0 }" @click="flipCard(0)" @touchstart="flipCard(0)" tabindex="0">
               <div class="card-flip-inner">
                 <div class="card-flip-front rounded-3" style="background: linear-gradient(135deg, #0051a3, #3f7fca)">
                   <div class="d-flex flex-column h-100 justify-content-center align-items-center text-center" data-bs-theme="light">
@@ -55,7 +55,7 @@
           </b-col>
 
           <b-col>
-            <div class="card-flip" @click="toggleFlip" tabindex="0">
+            <div class="card-flip" :class="{ flipped: flippedCard === 1 }" @click="flipCard(1)" @touchstart="flipCard(1)" tabindex="0">
               <div class="card-flip-inner">
                 <div class="card-flip-front rounded-3" style="background: linear-gradient(135deg, #0051a3, #3f7fca)">
                   <div class="d-flex flex-column h-100 justify-content-center align-items-center text-center" data-bs-theme="light">
@@ -101,8 +101,7 @@
           </b-col>
 
           <b-col class="order-sm-2">
-            <div class="card-flip" @click="toggleFlip" tabindex="0">
-              <div class="card-flip-inner">
+            <div class="card-flip" :class="{ flipped: flippedCard === 2 }" @click="flipCard(2)" @touchstart="flipCard(2)" tabindex="0">              <div class="card-flip-inner">
                 <div class="card-flip-front rounded-3" style="background: linear-gradient(135deg, #0051a3, #3f7fca)">
                   <div class="d-flex flex-column h-100 justify-content-center align-items-center text-center" data-bs-theme="light">
                     <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
@@ -157,7 +156,7 @@
           </b-col>
 
           <b-col class="order-sm-1">
-            <div class="card-flip" @click="toggleFlip" tabindex="0">
+            <div class="card-flip" :class="{ flipped: flippedCard === 3 }" @click="flipCard(3)" @touchstart="flipCard(3)" tabindex="0">
               <div class="card-flip-inner">
                 <div class="card-flip-front rounded-3" style="background: linear-gradient(135deg, #0051a3, #3f7fca)">
                   <div class="d-flex flex-column h-100 justify-content-center align-items-center text-center" data-bs-theme="light">
@@ -251,9 +250,20 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
+  data() {
+    return {
+      flippedCard: null as number | null, // Track which card is currently flipped
+    };
+  },
   methods: {
-    toggleFlip(event: MouseEvent) {
-      (event.currentTarget as HTMLElement)?.classList.toggle('flipped');
+    flipCard(cardIndex: number) {
+      // If the same card is clicked, flip it back to front
+      if (this.flippedCard === cardIndex) {
+        this.flippedCard = null;
+      } else {
+        // Otherwise, flip the clicked card and reset others
+        this.flippedCard = cardIndex;
+      }
     },
   },
 });
