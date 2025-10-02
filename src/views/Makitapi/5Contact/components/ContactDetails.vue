@@ -5,17 +5,17 @@
         <b-col v-for="(contact, idx) in contactDetails" :key="idx">
           <h2 class="h4 mb-4">{{ contact.title }}</h2>
           <ul class="list-unstyled mb-0">
+            <!-- <li class="nav flex-nowrap mb-3">
+              <i class="ai-mail lead text-primary me-2"></i>
+              <a class="nav-link fw-normal p-0 mt-n1" :href="`mailto:${contact.email}`">{{ contact.email }}</a>
+            </li> -->
+            <li class="nav flex-nowrap mb-3">
+              <i class="ai-map-pin lead text-primary me-2"></i>
+              <p class="nav-link fw-normal p-0 mt-n1" to="#">{{ contact.address }}</p>
+            </li>
             <li class="nav flex-nowrap mb-3">
               <i class="ai-phone lead text-primary me-2"></i>
               <a class="nav-link fw-normal p-0 mt-n1" href="tel:+178632256040">{{ contact.mobileNo }}</a>
-            </li>
-            <li class="nav flex-nowrap mb-3">
-              <i class="ai-mail lead text-primary me-2"></i>
-              <a class="nav-link fw-normal p-0 mt-n1" :href="`mailto:${contact.email}`">{{ contact.email }}</a>
-            </li>
-            <li class="nav flex-nowrap mb-3">
-              <i class="ai-map-pin lead text-primary me-2"></i>
-              <router-link class="nav-link fw-normal p-0 mt-n1" to="#">{{ contact.address }}</router-link>
             </li>
           </ul>
         </b-col>

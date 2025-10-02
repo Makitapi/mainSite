@@ -4,6 +4,21 @@
       <h1 class="display-2">Contacts</h1>
       <p class="fs-lg pb-4 mb-0 mb-sm-2">We're a motivated team of RFID and (intra)logistics experts dedicated to transforming complex value chain challenges into simple, innovative solutions.<br>In today's fast-paced business environment, we understand that efficiency isn't just an advantage — it's paramount.<br>
         Our approach is straightforward: combine cutting-edge RFID technology with deep logistics process expertise to deliver systems that work seamlessly from day one.</p>
+                  <h2 class="h4 mb-4">{{ contactDetails[0].title }}</h2>
+          <ul class="list-unstyled mb-0">
+            <!-- <li class="nav flex-nowrap mb-3">
+              <i class="ai-mail lead text-primary me-2"></i>
+              <a class="nav-link fw-normal p-0 mt-n1" :href="`mailto:${contact.email}`">{{ contact.email }}</a>
+            </li> -->
+            <li class="nav flex-nowrap mb-3">
+              <i class="ai-map-pin lead text-primary me-2"></i>
+              <p class="nav-link fw-normal p-0 mt-n1" to="#">{{ contactDetails[0].address }}</p>
+            </li>
+            <!-- <li class="nav flex-nowrap mb-3">
+              <i class="ai-phone lead text-primary me-2"></i>
+              <a class="nav-link fw-normal p-0 mt-n1" href="tel:+178632256040">{{ contactDetails[0].mobileNo }}</a>
+            </li> -->
+          </ul>
     </b-col>
     <b-col lg="8" xl="7" class="offset-xl-1">
       <!-- Thank you message -->
@@ -166,4 +181,6 @@ const handleSubmit = async (event: Event) => {
     isSubmitting.value = false
   }
 }
+
+import { contactDetails } from '@/views/Makitapi/5Contact/data'
 </script>

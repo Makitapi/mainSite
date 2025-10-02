@@ -50,7 +50,7 @@ export const blogPostList: BlogPostType[] = [
     firstLine: '“Ship in, ship out.” That phrase often captures the urgency felt in supply chain operations. There’s a strong and understandable impulse to prioritize speed—get products out the door, fill orders fast, and keep things moving. But in the race for efficiency, we often compromise on something more foundational: accuracy.',
     shares: 11,
     comments: 3,
-    date: 'May 2025',
+    date: 'June 2025',
     category: 'Marketing',
     link: {
       name: 'blog.post-2'
@@ -63,25 +63,25 @@ export const blogPostList: BlogPostType[] = [
     firstLine: "When businesses think about improving supply chain performance, the focus often jumps to transportation or last-mile delivery. But before any product reaches a truck or doorstep, it travels a more crucial path: inside your warehouse. This is where intralogistics—and more importantly, data about intralogistics—becomes the real competitive differentiator.",
     shares: 8,
     comments: 12,
-    date: 'June 2025',
+    date: 'August 2025',
     category: 'Business',
     link: {
       name: 'blog.post-3'
     }
   },
-  // {
-  //   title: "It's a Lot About Data",
-  //   subtitle: 'How AI and Clean Data are Transforming the Supply Chain',
-  //   image: Post4,
-  //   firstLine: "When we think about supply chains, we often focus on trucks, warehouses, shipping containers, and inventory. At its core, supply chain management is about moving items from point A to point B. But underneath that physical movement lies a foundation that's arguably even more critical: data.",
-  //   shares: 8,
-  //   comments: 5,
-  //   date: 'July 2025',
-  //   category: 'Travel',
-  //   link: {
-  //     name: 'blog.post-4'
-  //   }
-  // },
+  {
+    title: "It's a Lot About Data",
+    subtitle: 'How AI and Clean Data are Transforming the Supply Chain',
+    image: Post4,
+    firstLine: "When we think about supply chains, we often focus on trucks, warehouses, shipping containers, and inventory. At its core, supply chain management is about moving items from point A to point B. But underneath that physical movement lies a foundation that's arguably even more critical: data.",
+    shares: 8,
+    comments: 5,
+    date: 'October 2025',
+    category: 'Travel',
+    link: {
+      name: 'blog.post-4'
+    }
+  },
   // {
   //   title: "The Power of Data in Optimizing Intralogistics and Warehouse Management",
   //   subtitle: '',

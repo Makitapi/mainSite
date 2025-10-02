@@ -34,7 +34,7 @@
         </p>
         <figure class="figure">
           <img class="figure-img rounded-5 mb-3" :src="singleImage" alt="Img" />
-          <figcaption class="figure-caption">Data rules</figcaption>
+          <!-- <figcaption class="figure-caption">Data rules</figcaption> -->
         </figure>
         <p class="fs-lg pb-2 pb-lg-0 mb-4 mb-lg-5">
           However, there's a catch. While having a good AI engine is important, it's not the most critical part of the system. The real linchpin? Clean data.
@@ -60,8 +60,8 @@
 <script setup lang="ts">
 import NavBar from '@/components/NavBar/NavBar.vue'
 import Jarallax from '@/components/Jarallax.vue'
-import coverImg from '@/assets/img/blog/Post1.jpeg'
-import singleImage from '@/assets/img/blog/post4.jpg'
+import coverImg from '@/assets/img/blog/Post4.jpg'
+import singleImage from '@/assets/img/blog/post4_1.jpg'
 import Footer from '@/views/Makitapi/1Landing/components/Footer.vue'
 import { blogPostList } from '@/views/Makitapi/3Blog/data'
 import { ref } from 'vue'
