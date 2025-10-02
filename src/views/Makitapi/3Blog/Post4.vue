@@ -60,7 +60,7 @@
 <script setup lang="ts">
 import NavBar from '@/components/NavBar/NavBar.vue'
 import Jarallax from '@/components/Jarallax.vue'
-import coverImg from '@/assets/img/blog/Post4.jpg'
+import coverImg from '@/assets/img/blog/post4.jpg'
 import singleImage from '@/assets/img/blog/post4_1.jpg'
 import Footer from '@/views/Makitapi/1Landing/components/Footer.vue'
 import { blogPostList } from '@/views/Makitapi/3Blog/data'
