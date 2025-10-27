@@ -1,5 +1,5 @@
 <template>
-  <article class="row g-0 border-0 mb-4" v-for="(post, idx) in blogPostList.slice().reverse()" :key="idx" :class="post.shares == 6 ? '' : 'pt-3 pt-sm-0'">
+  <article class="row g-0 border-0 mb-4" v-for="(post, idx) in translatedBlogPosts.slice().reverse()" :key="idx" :class="post.shares == 6 ? '' : 'pt-3 pt-sm-0'">
     <router-link class="col-sm-5 col-lg-4 bg-repeat-0 bg-size-cover bg-position-center rounded-5" :to="{ name: post.link.name }" style="min-height: 16rem" :style="{ backgroundImage: `url('${post.image}')` }" aria-label="Post image"></router-link>
     <b-col sm="7" lg="8">
       <div class="pt-4 pb-sm-4 ps-sm-4 pe-lg-4">
@@ -46,8 +46,23 @@
 
 <script setup lang="ts">
 import { blogPostList } from '@/views/Makitapi/3Blog/data'
+import { ref, computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 
-import { ref } from 'vue'
+const { t } = useI18n()
+
+const translatedBlogPosts = computed(() =>
+  blogPostList.map((post, index) => ({
+    ...post,
+    title: t(`blog.posts.post${index + 1}.title`) || post.title,
+    subtitle: t(`blog.posts.post${index + 1}.subtitle`) || post.subtitle,
+    firstLine: t(`blog.posts.post${index + 1}.description`) || post.firstLine,
+    shares: parseInt(t(`blog.posts.post${index + 1}.shares`)) || post.shares,
+    comments: parseInt(t(`blog.posts.post${index + 1}.comments`)) || post.comments,
+    date: t(`blog.posts.post${index + 1}.date`) || post.date,
+    category: t(`blog.posts.post${index + 1}.category`) || post.category,
+  }))
+)
 const selected = ref(null)
 const option = [
   { value: null, text: 6 },

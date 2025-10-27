@@ -1,5 +1,5 @@
 <template>
-  <b-row class="align-items-center pt-xl-2 pb-5 mb-lg-2 mb-xl-3 mb-xxl-4" v-for="(item, idx) in listData" :key="idx">
+  <b-row class="align-items-center pt-xl-2 pb-5 mb-lg-2 mb-xl-3 mb-xxl-4" v-for="(item, idx) in translatedListData" :key="idx">
     <!-- Image config -->
     <b-col md="7" lg="6" class="mb-4 mb-md-0">
       <router-link class="d-block position-relative" :to="{ name: item.link?.name }">
@@ -28,10 +28,10 @@
           </ul>
         </template>
         <!-- link button -->
-        <router-link v-if="item.link?.name" class="btn btn-sm btn-outline-dark rounded-pill" :to="{ name: item.link.name }">The story</router-link>
+        <router-link v-if="item.link?.name" class="btn btn-sm btn-outline-dark rounded-pill" :to="{ name: item.link.name }">{{ $t('projects.buttonText') }}</router-link>
         <div v-if="item.awards" class="d-flex align-items-center pt-2 pt-lg-3 mt-3">
           <!-- extra images -->
-          <h6 class="text-body mb-0 me-3">Awards:</h6>
+          <h6 class="text-body mb-0 me-3">{{ $t('projects.awardsLabel') }}</h6>
           <template v-for="(award, idx) in item.awards" :key="idx">
             <img class="d-block d-dark-mode-none me-4" :src="award.image.dark" width="90" alt="img" />
             <img class="d-none d-dark-mode-block me-4" :src="award.image.light" width="90" alt="img" />
@@ -43,5 +43,17 @@
 </template>
 
 <script setup lang="ts">
+import { ref, computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { listData } from '@/views/Makitapi/4Projects/data'
+
+const { t } = useI18n()
+
+const translatedListData = computed(() =>
+  listData.map((item, index) => ({
+    ...item,
+    title: t(`projects.project${index + 1}.title`) || item.title,
+    description: t(`projects.project${index + 1}.description`) || item.description,
+  }))
+)
 </script>

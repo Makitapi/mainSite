@@ -16,12 +16,12 @@
       <b-container class="position-relative z-2 pt-xl-4 pt-xxl-5 pb-sm-2">
         <b-row class="pt-md-3 pt-lg-5">
           <b-col lg="6" xxl="5" class="pb-lg-5 mb-xl-5">
-            <h1 class="display-5 text-center text-lg-start mb-xxl-5">Common use cases<br /><span> for supply chain and manufactoring</span></h1>
+            <h1 class="display-5 text-center text-lg-start mb-xxl-5" v-html="$t('useCases.hero.title')"></h1>
           </b-col>
           <b-col lg="5" xl="4" class="offset-lg-1 offset-xxl-2 d-flex flex-column pt-2 pt-md-4">
-            <p class="text-body fs-xl text-center text-lg-start pb-2 pb-md-0 mb-4 mb-md-5">There are endless ways to capitalize on RFID solutions. Here's a few examples.</p>
+            <p class="text-body fs-xl text-center text-lg-start pb-2 pb-md-0 mb-4 mb-md-5">{{ $t('useCases.hero.description') }}</p>
             <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-lg-end pb-3 pb-sm-5">
-              <a class="btn btn-lg btn-primary rounded-pill w-100 w-sm-auto me-sm-3 me-xl-4 mb-2 mb-sm-0" href="/contact">Contact us</a>
+              <a class="btn btn-lg btn-primary rounded-pill w-100 w-sm-auto me-sm-3 me-xl-4 mb-2 mb-sm-0" href="/contact">{{ $t('useCases.hero.contactButton') }}</a>
               <!-- <div class="btn btn-lg btn-link text-white w-100 w-sm-auto px-2">
                 Scroll to use cases
                 <i class="ai-arrow-down ms-2"></i>

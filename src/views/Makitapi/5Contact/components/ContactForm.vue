@@ -1,9 +1,8 @@
 <template>
   <b-row>
     <b-col lg="4" class="pe-xxl-4">
-      <h1 class="display-2">Contacts</h1>
-      <p class="fs-lg pb-4 mb-0 mb-sm-2">We're a motivated team of RFID and (intra)logistics experts dedicated to transforming complex value chain challenges into simple, innovative solutions.<br>In today's fast-paced business environment, we understand that efficiency isn't just an advantage — it's paramount.<br>
-        Our approach is straightforward: combine cutting-edge RFID technology with deep logistics process expertise to deliver systems that work seamlessly from day one.</p>
+      <h1 class="display-2">{{ $t('contact.title') }}</h1>
+      <p class="fs-lg pb-4 mb-0 mb-sm-2" v-html="$t('contact.description')"></p>
                   <h2 class="h4 mb-4">{{ contactDetails[0].title }}</h2>
           <ul class="list-unstyled mb-0">
             <!-- <li class="nav flex-nowrap mb-3">
@@ -23,8 +22,8 @@
     <b-col lg="8" xl="7" class="offset-xl-1">
       <!-- Thank you message -->
       <div v-if="showThankYou" class="alert alert-success mb-4" role="alert">
-        <h4 class="alert-heading">Thank you for reaching out!</h4>
-        <p class="mb-0">We've received your message and will get back to you soon.</p>
+        <h4 class="alert-heading">{{ $t('contact.thankYou.title') }}</h4>
+        <p class="mb-0">{{ $t('contact.thankYou.message') }}</p>
       </div>
       
       <!-- Contact form -->
@@ -37,79 +36,79 @@
         novalidate
       >
         <b-col sm="6">
-          <b-form-group label="Name">
-            <b-form-input 
-              size="lg" 
-              type="text" 
+          <b-form-group :label="$t('contact.form.nameLabel')">
+            <b-form-input
+              size="lg"
+              type="text"
               name="name"
-              placeholder="Your name" 
-              required 
+              :placeholder="$t('contact.form.namePlaceholder')"
+              required
               id="name"
-              v-model="formFields.name" 
+              v-model="formFields.name"
             />
-            <b-form-invalid-feedback>Please enter your name!</b-form-invalid-feedback>
+            <b-form-invalid-feedback>{{ $t('contact.validation.name') }}</b-form-invalid-feedback>
           </b-form-group>
         </b-col>
         <b-col sm="6">
-          <b-form-group label="Email">
-            <b-form-input 
-              size="lg" 
-              type="email" 
+          <b-form-group :label="$t('contact.form.emailLabel')">
+            <b-form-input
+              size="lg"
+              type="email"
               name="email"
-              placeholder="Email address" 
-              required 
+              :placeholder="$t('contact.form.emailPlaceholder')"
+              required
               id="email"
-              v-model="formFields.email" 
+              v-model="formFields.email"
             />
-            <b-form-invalid-feedback>Please provide a valid email address.</b-form-invalid-feedback>
+            <b-form-invalid-feedback>{{ $t('contact.validation.email') }}</b-form-invalid-feedback>
           </b-form-group>
         </b-col>
         <b-col sm="6">
-          <b-form-group label="Company">
-            <b-form-input 
-              size="lg" 
-              type="text" 
+          <b-form-group :label="$t('contact.form.companyLabel')">
+            <b-form-input
+              size="lg"
+              type="text"
               name="company"
-              placeholder="Your company" 
+              :placeholder="$t('contact.form.companyPlaceholder')"
               id="company"
-              v-model="formFields.company" 
+              v-model="formFields.company"
             />
           </b-form-group>
         </b-col>
         <b-col sm="6">
-          <b-form-group label="Phone">
-            <b-form-input 
-              size="lg" 
-              type="text" 
+          <b-form-group :label="$t('contact.form.phoneLabel')">
+            <b-form-input
+              size="lg"
+              type="text"
               name="phone"
-              placeholder="Phone number" 
+              :placeholder="$t('contact.form.phonePlaceholder')"
               id="phone"
-              v-model="formFields.phone" 
+              v-model="formFields.phone"
             />
           </b-form-group>
         </b-col>
         <b-col sm="12">
-          <b-form-group label="How can we help?">
-            <b-form-textarea 
-              size="lg" 
-              rows="5" 
+          <b-form-group :label="$t('contact.form.messageLabel')">
+            <b-form-textarea
+              size="lg"
+              rows="5"
               name="message"
-              placeholder="Enter your message here..." 
-              required 
+              :placeholder="$t('contact.form.messagePlaceholder')"
+              required
               id="message"
               v-model="formFields.message"
             ></b-form-textarea>
-            <b-form-invalid-feedback>Please enter your message.</b-form-invalid-feedback>
+            <b-form-invalid-feedback>{{ $t('contact.validation.message') }}</b-form-invalid-feedback>
           </b-form-group>
         </b-col>
         <b-col sm="12" class="pt-1">
-          <b-button 
-            size="lg" 
-            variant="primary" 
+          <b-button
+            size="lg"
+            variant="primary"
             type="submit"
             :disabled="isSubmitting"
           >
-            {{ isSubmitting ? 'Sending...' : 'Send' }}
+            {{ isSubmitting ? $t('contact.form.submittingButton') : $t('contact.form.submitButton') }}
           </b-button>
         </b-col>
       </b-form>

@@ -3,6 +3,7 @@ import Post2 from '@/assets/img/blog/Post2.jpeg'
 import Post3 from '@/assets/img/blog/Post3.jpeg'
 import Post4 from '@/assets/img/blog/post4.jpg'
 import Post5 from '@/assets/img/blog/post4.jpg'
+import Post6 from '@/assets/img/blog/post6.jpg'
 
 
 
@@ -89,12 +90,25 @@ export const blogPostList: BlogPostType[] = [
   //   firstLine: "Intralogistics is the backbone of any efficient supply chain, focusing on the internal flow of goods and information within a warehouse or distribution center. While it's easy to get caught up in the physical movement of materials, the true power behind optimizing intralogistics lies in data—specifically, how data drives material flow, warehouse management, and overall operational efficiency.",
   //   shares: 8,
   //   comments: 5,
-  //   date: 'August 2025',
+  //   date: 'December 2025',
   //   category: 'Travel',
   //   link: {
   //     name: 'blog.post-5'
   //   }
   // },
+  // {
+  //   title: "Digital Kanban with RFID Integration",
+  //   subtitle: "Say Goodbye to Manual Tracking Forever",
+  //   image: Post6,
+  //   firstLine: "Traditional Kanban methods work... until they don't. Physical cards get lost, information lags, and coordination requires constant communication. RFID-enabled digital Kanban transforms this outdated system into an automated, intelligent operation that updates itself and alerts you only when strategic intervention is needed.",
+  //   shares: 6,
+  //   comments: 8,
+  //   date: 'December 2025',
+  //   category: 'Technology',
+  //   link: {
+  //     name: 'blog.post-6'
+  //   }
+  // }
 ]
 
 export const trendingPost: TrendingType[] = [

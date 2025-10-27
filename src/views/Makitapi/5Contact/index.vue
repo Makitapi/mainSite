@@ -2,7 +2,7 @@
   <NavBar />
   <main class="page-wrapper">
     <b-container class="pt-5 pb-lg-2 pb-xl-4 py-xxl-5 my-5">
-      <Breadcrumb title="Contacts" :class="'pb-lg-4 pb-2'" />
+      <Breadcrumb :title="$t('contact.breadcrumbTitle')" :class="'pb-lg-4 pb-2'" />
       <ContactForm />
     </b-container>
     <!-- <ContactDetails /> -->

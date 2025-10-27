@@ -3,20 +3,20 @@
     <b-row class="pt-2">
       <b-col lg="6" class="flex-column mb-4 mb-lg-0 pb-sm-3 pb-lg-0">
         <h1 class="display-1 fw-bold mt-auto mb-2">Maki<span class="ms-0" style="color: #0051a3">tapi</span> <span class="d-none d-md-inline-block align-middle ms-4" style="width: 120px; height: 2px; background-color: currentColor"></span></h1>
-        <h2><p>Revolutionary RFID Solutions for the Modern Value Chain</p></h2>
-        <p>Next-generation tracking technology with unmatched speed, visibility, and edge computing capabilities. No cloud dependency required.</p>
+        <h2><p>{{ $t('landing.hero.title') }}</p></h2>
+        <p>{{ $t('landing.hero.subtitle') }}</p>
 
         <div class="d-flex justify-content-center align-items-center py-4 py-lg-5">
-          <a class="btn btn-lg btn-primary rounded-2" href="/contact">Contact us</a>
+          <a class="btn btn-lg btn-primary rounded-2" href="/contact">{{ $t('landing.hero.contactButton') }}</a>
         </div>
 
         <!-- Rotating Text Animation - centered below button -->
         <div class="d-flex justify-content-center align-items-baseline" style="font-size: 28px; font-weight: 500; letter-spacing: -1px">
           <span class="me-3">Make it</span>
           <div class="position-relative" style="height: 31px; min-width: 90px; color: var(--bs-primary)">
-            <span class="position-absolute start-0 top-0 rotating-word rotating-word-1">Simple</span>
-            <span class="position-absolute start-0 top-0 rotating-word rotating-word-2">Happen</span>
-            <span class="position-absolute start-0 top-0 rotating-word rotating-word-3">Happy</span>
+            <span class="position-absolute start-0 top-0 rotating-word rotating-word-1">{{ $t('landing.hero.rotatingWord1') }}</span>
+            <span class="position-absolute start-0 top-0 rotating-word rotating-word-2">{{ $t('landing.hero.rotatingWord2') }}</span>
+            <span class="position-absolute start-0 top-0 rotating-word rotating-word-3">{{ $t('landing.hero.rotatingWord3') }}</span>
           </div>
         </div>
         <!-- End Rotating Text Animation -->
@@ -36,13 +36,13 @@
                       </g>
                       <path stroke="null" id="svg_4" d="m41.10977,34.24931c13.03522,1.0363 4.6687,21.22155 -1.31985,14.74847c-6.37465,-8.17262 13.98178,-13.22817 14.0039,5.2028" opacity="NaN" />
                     </svg>
-                    <h2 class="fs-2 mb-0 text-white mt-auto">Simplicity That Works</h2>
+                    <h2 class="fs-2 mb-0 text-white mt-auto">{{ $t('landing.cards.simplicity.front') }}</h2>
                   </div>
                 </div>
                 <div class="card-flip-back bg-secondary rounded-3">
                   <div class="d-flex flex-column h-100 px-sm-2 pt-sm-2 px-lg-0 pt-lg-0 px-xl-3 pt-xl-3">
-                    <h3>Simplicity That Works</h3>
-                    <p class="text-body mb-3">Nimble, fast, and easy solution that eliminates unnecessary complexity. Focusing on user experience makes adoption painless.</p>
+                    <h3>{{ $t('landing.cards.simplicity.front') }}</h3>
+                    <p class="text-body mb-3">{{ $t('landing.cards.simplicity.back') }}</p>
                     <!-- <div class="text-end pt-3 pt-sm-2 pt-xl-4 mt-auto me-sm-n2 me-lg-0 me-xl-n3"> -->
                     <!-- <div class="btn btn-sm btn-icon btn-outline-info rounded-circle">
                         <i class="ai-arrow-right"></i>
@@ -82,13 +82,13 @@
                         </g>
                       </g>
                     </svg>
-                    <h2 class="fs-2 mb-0 text-white mt-auto">Efficiency Focused</h2>
+                    <h2 class="fs-2 mb-0 text-white mt-auto">{{ $t('landing.cards.efficiency.front') }}</h2>
                   </div>
                 </div>
                 <div class="card-flip-back bg-secondary rounded-3">
                   <div class="d-flex flex-column h-100 px-sm-2 pt-sm-2 px-lg-0 pt-lg-0 px-xl-3 pt-xl-3">
-                    <h3>Efficiency Focused</h3>
-                    <p class="text-body mb-3">Feature bloat adds unnecessary complexity, in turn we aim to what actually moves the needle for your business, what brings you the highest return.</p>
+                    <h3>{{ $t('landing.cards.efficiency.front') }}</h3>
+                    <p class="text-body mb-3">{{ $t('landing.cards.efficiency.back') }}</p>
                     <!-- <div class="text-end pt-3 pt-sm-2 pt-xl-4 mt-auto me-sm-n2 me-lg-0 me-xl-n3">
                       <div class="btn btn-sm btn-icon btn-outline-info rounded-circle">
                         <i class="ai-arrow-right"></i>
@@ -137,13 +137,13 @@
                         </g>
                       </g>
                     </svg>
-                    <h2 class="fs-2 mb-0 text-white mt-auto">Future Proofed</h2>
+                    <h2 class="fs-2 mb-0 text-white mt-auto">{{ $t('landing.cards.futureProof.front') }}</h2>
                   </div>
                 </div>
                 <div class="card-flip-back bg-secondary rounded-3">
                   <div class="d-flex flex-column h-100 px-sm-2 pt-sm-2 px-lg-0 pt-lg-0 px-xl-3 pt-xl-3">
-                    <h3>Future Proof</h3>
-                    <p class="text-body mb-3">Crawl, Walk, Run, Fly: with a scalable decoupled architecture, we use a stage-gate approach to ensure success at every step, it grows with your needs.</p>
+                    <h3>{{ $t('landing.cards.futureProof.front') }}</h3>
+                    <p class="text-body mb-3">{{ $t('landing.cards.futureProof.back') }}</p>
                     <!-- <div class="text-end pt-3 pt-sm-2 pt-xl-4 mt-auto me-sm-n2 me-lg-0 me-xl-n3">
                       <div class="btn btn-sm btn-icon btn-outline-info rounded-circle">
                         <i class="ai-arrow-right"></i>
@@ -190,13 +190,13 @@
                         </g>
                       </g>
                     </svg>
-                    <h2 class="fs-2 mb-0 text-white mt-auto">One-size does not fit all</h2>
+                    <h2 class="fs-2 mb-0 text-white mt-auto">{{ $t('landing.cards.customizable.front') }}</h2>
                   </div>
                 </div>
                 <div class="card-flip-back bg-secondary rounded-3">
                   <div class="d-flex flex-column h-100 px-sm-2 pt-sm-2 px-lg-0 pt-lg-0 px-xl-3 pt-xl-3">
-                    <h3>One-size does not fit all</h3>
-                    <p class="text-body mb-3">Configured specifically to your unique workflows and challenges, sharing data with your ERP, WMS, or MES; as well as 3PL partners. Easy to use integrations.</p>
+                    <h3>{{ $t('landing.cards.customizable.front') }}</h3>
+                    <p class="text-body mb-3">{{ $t('landing.cards.customizable.back') }}</p>
                     <!-- <div class="text-end pt-3 pt-sm-2 pt-xl-4 mt-auto me-sm-n2 me-lg-0 me-xl-n3">
                       <div class="btn btn-sm btn-icon btn-outline-info rounded-circle">
                         <i class="ai-arrow-right"></i>

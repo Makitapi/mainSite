@@ -3,9 +3,9 @@
     <NavBar />
 
     <b-container class="pt-5 pb-sm-3 mt-5 mb-2 mb-md-3 mb-lg-4 mb-xxl-5">
-      <Breadcrumb :class="'pb-lg-4'" title="Projects" />
+      <Breadcrumb :class="'pb-lg-4'" :title="$t('projects.breadcrumbTitle')" />
 
-      <h1 class="pb-3">A few of our projects</h1>
+      <h1 class="pb-3">{{ $t('projects.mainTitle') }}</h1>
       <Projects />
     </b-container>
 

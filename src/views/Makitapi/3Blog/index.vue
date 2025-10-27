@@ -2,7 +2,7 @@
   <main class="page-wrapper">
     <NavBar />
     <b-container class="pt-5 pb-lg-5 pb-md-4 pb-2 my-5">
-      <Breadcrumb title="Blog" :class="'pb-lg-4'" />
+      <Breadcrumb :title="$t('blog.breadcrumbTitle')" :class="'pb-lg-4'" />
 
       <!-- <Filter /> -->
 

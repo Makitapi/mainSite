@@ -5,24 +5,24 @@
       <aside class="col-md-3 col-lg-2" style="margin-top: -125px">
         <div class="d-flex d-md-block flex-wrap position-sticky top-0" style="padding-top: 130px">
           <div class="pb-3 mb-2 mb-lg-4 me-5 me-md-0">
-            <h2 class="fs-base fw-normal text-body-secondary mb-2">Company</h2>
+            <h2 class="fs-base fw-normal text-body-secondary mb-2">{{ $t('projectDetails.sidebar.company') }}</h2>
             <ul class="list-unstyled fs-lg fw-semibold text-dark mb-0">
-              <li class="d-block py-1">1 DC</li>
-              <li class="d-block py-1">300+ Stores</li>
-              <li class="d-block py-1">LATAM</li>
+              <li class="d-block py-1">{{ $t('projectDetails.project2.company.dc') }}</li>
+              <li class="d-block py-1">{{ $t('projectDetails.project2.company.stores') }}</li>
+              <li class="d-block py-1">{{ $t('projectDetails.project2.company.region') }}</li>
               <!-- <li class="d-block py-1"><a class="text-dark" href="#">Visit website</a></li> -->
             </ul>
           </div>
           <div class="pb-3 mb-2 mb-lg-4 me-5 me-md-0">
-            <h2 class="fs-base fw-normal text-body-secondary mb-2">Industry</h2>
+            <h2 class="fs-base fw-normal text-body-secondary mb-2">{{ $t('projectDetails.sidebar.industry') }}</h2>
             <ul class="list-unstyled fs-lg fw-semibold text-dark mb-0">
-              <li class="d-block py-1">Fashion Retail</li>
+              <li class="d-block py-1">{{ $t('projectDetails.project2.industry') }}</li>
             </ul>
           </div>
           <div class="pb-3 mb-2 mb-lg-4">
-            <h2 class="fs-base fw-normal text-body-secondary mb-2">Time spent</h2>
+            <h2 class="fs-base fw-normal text-body-secondary mb-2">{{ $t('projectDetails.sidebar.timeSpent') }}</h2>
             <ul class="list-unstyled fs-lg fw-semibold text-dark mb-0">
-              <li class="d-block py-1">2 years</li>
+              <li class="d-block py-1">{{ $t('projectDetails.project2.timeSpent') }}</li>
             </ul>
           </div>
         </div>
@@ -30,24 +30,23 @@
 
       <b-col md="9" offset-lg="1">
         <div class="ps-md-4 ps-lg-0">
-          <div v-for="(item, idx) in singleDescriptions" :key="idx">
-            <h2 class="h1 pt-2 pt-sm-3 pt-md-4 pt-lg-5 pb-2">{{ item.title }}</h2>
-            <p class="fs-lg">{{ item.content }}</p>
+          <div>
+            <h2 class="h1 pt-2 pt-sm-3 pt-md-4 pt-lg-5 pb-2">{{ $t('projectDetails.project2.sections.aboutClient.title') }}</h2>
+            <p class="fs-lg">{{ $t('projectDetails.project2.sections.aboutClient.content') }}</p>
+
+            <h2 class="h1 pt-2 pt-sm-3 pt-md-4 pt-lg-5 pb-2">{{ $t('projectDetails.project2.sections.challenge.title') }}</h2>
+            <p class="fs-lg">{{ $t('projectDetails.project2.sections.challenge.content') }}</p>
+
+            <h2 class="h1 pt-2 pt-sm-3 pt-md-4 pt-lg-5 pb-2">{{ $t('projectDetails.project2.sections.solution.title') }}</h2>
+            <p class="fs-lg">{{ $t('projectDetails.project2.sections.solution.content') }}</p>
           </div>
         </div>
       </b-col>
     </b-row>
 
     <b-row class="pt-sm-3 pt-md-4 pb-5 mb-sm-2 mb-md-3 mb-lg-4 mb-xl-5">
-      <h2 class="h1 pt-2 pt-sm-3 pt-md-4 pt-lg-5 pb-2">From good to great</h2>
-      <p class="fs-lg">
-        The retailer's journey began with a baseline performance of 1,400 items per man-hour, exactly meeting their modest goal. However, their RFID implementation revealed that true transformation requires patience, iteration, and organizational commitment.
-
-        <br />
-        <br /><strong>RFID Pilot Stage:</strong> Initial portal installation delivered immediate 35% improvement, proving the technology's potential while maintaining existing workflows. <br /><strong>Hardware Fine-Tuning</strong> Optimizing read rates and portal positioning pushed performance to 50% above original baseline, demonstrating the importance of technical refinement. <br /><strong>Partner Training</strong> Educating suppliers and logistics partners on RFID-optimized processes
-        delivered another performance leap, highlighting the ecosystem approach required. <br /><strong>DC Operations Changes</strong> The breakthrough came when they redesigned internal workflows around RFID capabilities rather than forcing the technology into existing processes—more than doubling original performance. <br /><strong>Redundant Operations Elimination</strong> The final transformation involved eliminating manual verification steps that RFID made obsolete, achieving a stunning 250%
-        improvement over their starting point.
-      </p>
+      <h2 class="h1 pt-2 pt-sm-3 pt-md-4 pt-lg-5 pb-2">{{ $t('projectDetails.project2.sections.evolutionStory.title') }}</h2>
+      <p class="fs-lg" v-html="$t('projectDetails.project2.sections.evolutionStory.content')"></p>
     </b-row>
 
     <Jarallax class="jarallax" data-jarallax data-speed="0.6">
@@ -57,14 +56,14 @@
 
     <b-row class="pt-sm-3 pt-md-4 pb-5 mb-sm-2 mb-md-3 mb-lg-4 mb-xl-5">
       <b-col md="7" xl="6" class="mb-4 mb-md-0">
-        <h2 class="h1 pb-sm-2 pb-lg-3">Results</h2>
-        <p class="fs-lg mb-0">This retailer's success story proves that RFID implementation isn't plug-and-play—it's a strategic journey. While immediate improvements are possible, transformational results require organizations to reshape operations around the technology's capabilities, not the reverse.</p>
+        <h2 class="h1 pb-sm-2 pb-lg-3">{{ $t('projectDetails.project2.sections.results.title') }}</h2>
+        <p class="fs-lg mb-0">{{ $t('projectDetails.project2.sections.results.content1') }}</p>
         <p class="fs-lg mb-0">_</p>
-        <p class="fs-lg mb-0">The 4,900 items per man-hour achievement represents over $200k in annual labor savings, but more importantly, it demonstrates how embracing technological change as an organizational evolution—rather than just a tool upgrade—unlocks exponential value.</p>
+        <p class="fs-lg mb-0">{{ $t('projectDetails.project2.sections.results.content2') }}</p>
       </b-col>
       <b-col md="5" offset-xl="1">
         <b-row class="row-cols-2 gx-3 gx-sm-4">
-          <b-col v-for="(result, idx) in singlev2Result" :key="idx">
+          <b-col v-for="(result, idx) in translatedResults" :key="idx">
             <div class="h2 display-1 mb-0">{{ result.number }}</div>
             <p class="fs-sm mb-0">{{ result.description }}</p>
           </b-col>
@@ -75,7 +74,18 @@
 </template>
 
 <script setup lang="ts">
+import { ref, computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { singleDescriptions, single2counter, singlev2Result, singleImg02, singleImg03, singleImg04, singleImg05, singleImg06, singleImg07, singleImg08, singleImg09, singleImg10 } from '@/views/Makitapi/4Projects/Project2/data'
 import Jarallax from '@/components/Jarallax.vue'
 import parallaxImg from '@/assets/img/portfolio/Project2/p2.jpeg'
+
+const { t } = useI18n()
+
+const translatedResults = computed(() =>
+  singlev2Result.map((result, index) => ({
+    ...result,
+    description: t(`projectDetails.project2.results[${index}].description`) || result.description
+  }))
+)
 </script>

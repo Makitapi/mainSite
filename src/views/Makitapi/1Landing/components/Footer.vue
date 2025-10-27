@@ -4,10 +4,10 @@
     <b-container class="position-relative z-2 pt-4 pt-md-2 pt-xl-4 pt-xxl-5" data-bs-theme="dark">
       <div class="d-flex flex-column flex-md-row align-items-center justify-content-between pb-1 pb-md-0 mb-1">
         <div class="d-flex align-items-center mb-3 mb-md-0">
-          <h3 class="mb-0">The future of material flow begins today, take the first step.</h3>
+          <h3 class="mb-0">{{ $t('footer.heading') }}</h3>
         </div>
         <div class="d-flex align-items-center mb-3 mb-md-0">
-          <a class="btn btn-lg btn-primary rounded-3 me-sm-3 me-lg-4" href="/contact">Contact us</a>
+          <a class="btn btn-lg btn-primary rounded-3 me-sm-3 me-lg-4" href="/contact">{{ $t('footer.contactButton') }}</a>
         </div>
 
         <div class="d-flex justify-content-center justify-content-md-start me-md-n2">
@@ -18,7 +18,7 @@
       </div>
       <div class="d-md-flex align-items-center justify-content-between pb-1 pb-md-0">
         <p class="nav fs-sm pt-3 pb-2 pb-lg-0 mb-0">
-          <span class="text-body-secondary">&copy; 2025 Makitapi | All rights reserved.</span>
+          <span class="text-body-secondary">{{ $t('footer.copyright') }}</span>
         </p>
       </div>
     </b-container>

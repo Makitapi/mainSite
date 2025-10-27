@@ -522,8 +522,8 @@ export const production: IndustryType[] = [
   },
   {
     image: production3,
-    title: 'Digital Kanban',
-    description: "RFID digital kanban systems replace manual cards, giving real-time consumption data to ERP systems for automated replenishment. They provide instant production metrics, maintain transparent material flow, and reduce inventory to optimal levels while eliminating human errors.",
+    title: 'RTI Tracking',
+    description: "RTIs (Returnable transport items) include various reusable bulk carriers such as pallets, cages, containers, totes, bins, IBCs, gas cylinders, kegs, among others. These essencial assets frequently encounter issues like supply chain disruptions, inefficient processes, billing inaccuracies, regulatory compliance challenges, and rising management expenses. Having a clear view of where, when, and how many, is paramount. ",
     key: 'kanban'
   },
   {

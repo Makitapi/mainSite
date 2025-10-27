@@ -1,0 +1,601 @@
+{
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "useCases": "Use Cases",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "common": {
+    "language": "Language",
+    "english": "English",
+    "portuguese": "Portuguese",
+    "spanish": "Spanish"
+  },
+  "landing": {
+    "hero": {
+      "title": "Revolutionary RFID Solutions for the Modern Value Chain",
+      "subtitle": "Next-generation tracking technology with unmatched speed, visibility, and edge computing capabilities. No cloud dependency required.",
+      "contactButton": "Contact us",
+      "rotatingWord1": "Simple",
+      "rotatingWord2": "Happen",
+      "rotatingWord3": "Happy"
+    },
+    "cards": {
+      "simplicity": {
+        "front": "Simplicity That Works",
+        "back": "Nimble, fast, and easy solution that eliminates unnecessary complexity. Focusing on user experience makes adoption painless."
+      },
+      "efficiency": {
+        "front": "Efficiency Focused",
+        "back": "Feature bloat adds unnecessary complexity, in turn we aim to what actually moves the needle for your business, what brings you the highest return."
+      },
+      "futureProof": {
+        "front": "Future Proofed",
+        "back": "Crawl, Walk, Run, Fly: with a scalable decoupled architecture, we use a stage-gate approach to ensure success at every step, it grows with your needs."
+      },
+      "customizable": {
+        "front": "One-size does not fit all",
+        "back": "Configured specifically to your unique workflows and challenges, sharing data with your ERP, WMS, or MES; as well as 3PL partners. Easy to use integrations."
+      }
+    }
+  },
+  "benefits": {
+    "title": "RFID Benefits",
+    "subtitle": "Major outcomes of a well implemented RFID program",
+    "items": [
+      {
+        "title": "Improved Efficiency",
+        "description": "Streamline processes, reduce manual labor, and increase throughput with automated tracking systems."
+      },
+      {
+        "title": "Magnify Transparency",
+        "description": "Gain real-time visibility into materials, assets, and processes throughout your entire operation."
+      },
+      {
+        "title": "Enhanced Accuracy",
+        "description": "Eliminate human errors and achieve unprecedented precision in item-level."
+      },
+      {
+        "title": "Reduced Costs",
+        "description": "Minimize errors, prevent waste, and optimize resource utilization to significantly lower operational expenses."
+      },
+      {
+        "title": "Complete Traceability",
+        "description": "Maintain comprehensive records for regulatory compliance and quality assurance purposes."
+      },
+      {
+        "title": "End-to-End Visibility",
+        "description": "Gain complete visibility across your entire value chain, from raw materials to finished products and beyond."
+      }
+    ]
+  },
+  "whyMakitapi": {
+    "title": "What makes us different",
+    "subtitle": "What to expect when working with our solutions",
+    "items": [
+      {
+        "title": "Scalable Solution",
+        "description": "Easily expand and adapt your RFID ecosystem as your business grows and evolves."
+      },
+      {
+        "title": "Lightning-Fast",
+        "description": "Our proprietary RFID technology delivers sub-second readings for real-time decision making and immediate action."
+      },
+      {
+        "title": "Edge Computing",
+        "description": "Process data where it matters most — at the edge. It works with minimal latency and maintains continuity even without internet (no cloud dependency)."
+      },
+      {
+        "title": "Real-Time Analytics",
+        "description": "Get access to raw data the moment that it is generated and transform it into actionable insights that you can act immediately upon.."
+      },
+      {
+        "title": "Safeguard the core",
+        "description": "Hybrid solution with both on-prem (for critical non-stop operations) and cloud (for analytics). Private cloud options, security, and control on your terms."
+      },
+      {
+        "title": "Transparent Pricing",
+        "description": "No hidden costs, no surprises. Single license covers everything: every use-case, every site, every user, every device. It's a pay for usage model."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How it works?",
+    "subtitle": "Let's make it happen",
+    "step1": {
+      "title": "Explore Tech Capabilities",
+      "description": "Discover technology potential through case studies, live demo, and discussions tailored to your needs.",
+      "bullets": [
+        "Explore case studies from similar implementations",
+        "Live technology demonstration showcasing real-world applications",
+        "Proof of concept development to validate technical feasibility",
+        "Framework design and engagement model discussion (crawl, walk, run, fly)"
+      ]
+    },
+    "step2": {
+      "title": "Real-life test",
+      "description": "Comprehensive Operations Assessment and Planning. Deep-dive analysis of your current operations, identifying bottlenecks, opportunities, and creating detailed implementation roadmap.",
+      "bullets": [
+        "Detailed site surveys and operational workflow mapping",
+        "Complete documentation of current processes and improvement opportunities",
+        "Picture of Success (PictOS) definition with clear ROI projections",
+        "Pilot program design with specific success metrics defined"
+      ]
+    },
+    "step3": {
+      "title": "Rollout with Continuous Evolution",
+      "description": "Execute a phased deployment grounded on 80/20 principles to maximum-impact with the least amount of effort but without compromising on long-term/future capabilities.",
+      "bullets": [
+        "Phased rollout execution with milestone-based progress tracking",
+        "ROI validation through measurable performance improvements",
+        "Hypercare support during critical transition periods",
+        "Future expansion guidelines and scalability planning framework"
+      ]
+    }
+  },
+  "footer": {
+    "heading": "The future of material flow begins today, take the first step.",
+    "contactButton": "Contact us",
+    "copyright": "© 2025 Makitapi | All rights reserved."
+  },
+  "useCases": {
+    "breadcrumbTitle": "Use-cases",
+    "hero": {
+      "title": "Common use cases<br /><span> for supply chain and manufactoring</span>",
+      "description": "There are endless ways to capitalize on RFID solutions. Here's a few examples.",
+      "contactButton": "Contact us"
+    },
+    "inventory": {
+      "title": "Inventory Management",
+      "description": "Modern warehouses require comprehensive visibility into material flow throughout their operations. RFID automation replaces time-intensive manual processes, streamlining workforce allocation while delivering superior precision and throughput for inventory receipts and shipments."
+    },
+    "production": {
+      "title": "Production control and WIP",
+      "description": "Manufacturing facilities need precise real-time visibility of production activities and work-in-process transitions. Automated monitoring systems eliminate manual data entry, reducing labor requirements while increasing accuracy and production throughput for both WIP and finished goods."
+    }
+  },
+  "contact": {
+    "breadcrumbTitle": "Contacts",
+    "title": "Contacts",
+    "description": "We're a motivated team of RFID and (intra)logistics experts dedicated to transforming complex value chain challenges into simple, innovative solutions.<br>In today's fast-paced business environment, we understand that efficiency isn't just an advantage — it's paramount.<br>Our approach is straightforward: combine cutting-edge RFID technology with deep logistics process expertise to deliver systems that work seamlessly from day one.",
+    "form": {
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "companyLabel": "Company",
+      "phoneLabel": "Phone",
+      "messageLabel": "How can we help?",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Email address",
+      "companyPlaceholder": "Your company",
+      "phonePlaceholder": "Phone number",
+      "messagePlaceholder": "Enter your message here...",
+      "submitButton": "Send",
+      "submittingButton": "Sending..."
+    },
+    "thankYou": {
+      "title": "Thank you for reaching out!",
+      "message": "We've received your message and will get back to you soon."
+    },
+    "validation": {
+      "name": "Please enter your name!",
+      "email": "Please provide a valid email address.",
+      "message": "Please enter your message."
+    }
+  },
+  "projects": {
+    "breadcrumbTitle": "Projects",
+    "mainTitle": "A few of our projects",
+    "buttonText": "The story",
+    "awardsLabel": "Awards:",
+    "project1": {
+      "title": "From 5 to 1 sec",
+      "description": "More items, less labor, faster operations | How RFID transformation saved thousands of hours of scanning time per year"
+    },
+    "project2": {
+      "title": "The RFID Journey",
+      "description": "How One Retailer Transformed 1,400 Items/Hour into 4,900 Through Strategic Evolution"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "projects": "Projects"
+    }
+  },
+  "blog": {
+    "breadcrumbTitle": "Blog",
+    "posts": {
+      "post1": {
+        "title": "How to Start an RFID Program",
+        "subtitle": "The intralogistics scenario",
+        "description": "Radio Frequency Identification (RFID) technology is transforming warehouse and distribution center operations by providing real-time visibility into inventory movement and location. Starting an RFID program for intralogistics requires careful planning and a phased approach to ensure successful implementation.",
+        "shares": 10,
+        "comments": 4,
+        "date": "April 2025",
+        "category": "Books",
+        "breadcrumb": {
+          "home": "Home",
+          "blog": "Blog"
+        },
+        "content": {
+          "introduction": "Radio Frequency Identification (RFID) technology is transforming warehouse and distribution center operations by providing real-time visibility into inventory movement and location. Starting an RFID program for intralogistics requires careful planning and a phased approach to ensure successful implementation.",
+          "pilotProgram": {
+            "title": "Begin with a Pilot Program",
+            "text": "Start small by selecting a specific area or process within your facility. Choose a high-value use case such as tracking critical components, monitoring work-in-progress inventory, or managing returnable containers. A focused pilot allows you to test the technology, understand its limitations, and build internal expertise without overwhelming your operations team."
+          },
+          "siteAssessment": {
+            "title": "Conduct a Thorough Site Assessment",
+            "text": "Evaluate your facility's physical environment, as metal structures, liquid products, and electromagnetic interference can affect RFID performance. Map out areas where tags will be read, considering factors like conveyor speeds, package density, and reader placement requirements. This assessment will help determine the appropriate RFID frequency (LF, HF, or UHF) and tag types for your specific environment."
+          },
+          "technologyPartners": {
+            "title": "Choose the Right Technology Partners",
+            "text": "Select RFID hardware vendors and system integrators with proven experience in intralogistics applications. Look for partners who can provide comprehensive support including tag selection, reader configuration, and integration with your existing warehouse management system (WMS) or enterprise resource planning (ERP) software."
+          },
+          "roiMetrics": {
+            "title": "Develop Clear ROI Metrics",
+            "text": "Establish baseline measurements for key performance indicators such as inventory accuracy, labor hours spent on manual scanning, order fulfillment speed, and shrinkage rates. Define specific targets for improvement that will justify your RFID investment and guide system optimization efforts."
+          },
+          "changeManagement": {
+            "title": "Plan for Change Management",
+            "text": "Prepare your workforce for the transition by providing comprehensive training on new processes and addressing concerns about technology adoption. Clearly communicate how RFID will enhance rather than replace their roles, emphasizing benefits like reduced manual data entry and improved inventory visibility."
+          },
+          "scaleGradually": {
+            "title": "Scale Gradually",
+            "text": "Once your pilot demonstrates success, expand the program systematically. Apply lessons learned to additional areas while maintaining focus on processes that deliver the highest return on investment. Consider integrating RFID data with analytics platforms to unlock advanced insights about operational efficiency and inventory optimization."
+          },
+          "dataIntegration": {
+            "title": "Ensure Data Integration",
+            "text": "Work closely with your IT team to ensure RFID data flows seamlessly into existing systems. Real-time inventory updates and automated alerts require robust middleware solutions that can handle high-volume data streams while maintaining system reliability."
+          },
+          "conclusion": {
+            "text": "Success with RFID in intralogistics comes from treating it not as a technology upgrade but as an operational transformation, better yet, a business transformation. With proper planning and execution, RFID can significantly improve inventory accuracy, reduce labor costs, and enhance overall supply chain visibility."
+          },
+          "signOff": {
+            "prefix": "So:",
+            "company": "Makitapi"
+          }
+        }
+      },
+      "post2": {
+        "title": "Accuracy First, Speed Second",
+        "subtitle": "Rethinking Priorities in the Supply Chain",
+        "description": "\"Ship in, ship out.\" That phrase often captures the urgency felt in supply chain operations. There's a strong and understandable impulse to prioritize speed—get products out the door, fill orders fast, and keep things moving. But in the race for efficiency, we often compromise on something more foundational: accuracy.",
+        "shares": 11,
+        "comments": 3,
+        "date": "June 2025",
+        "category": "Marketing",
+        "breadcrumb": {
+          "home": "Home",
+          "blog": "Blog"
+        },
+        "content": {
+          "introduction1": "This mindset—valuing speed over accuracy—is tempting, especially when short-term wins are on the line. You meet a deadline, satisfy a customer (for now), and keep KPIs looking good. But the truth is, without accurate data and processes, those wins are fragile. The cost of errors in the supply chain isn't always immediate, but it always adds up.",
+          "errorSection": {
+            "title": "Errors propagate and compound",
+            "text": "When accuracy is sacrificed, errors begin to propagate throughout the value chain. Inventory gets miscounted, demand forecasts go off-track, shipments are misrouted, and customer orders are delayed or wrong. What's worse, these errors often remain hidden until they snowball into bigger issues—stockouts, missed revenue, reputational hits, or expensive last-minute fixes."
+          },
+          "measurementSection": {
+            "text": "It's a classic case of \"measure twice, cut once.\" In modern supply chains, data accuracy is the new precision. Every inbound and outbound movement needs to be rooted in clean, timely, and verified information. That includes inventory counts, warehouse locations, shipping confirmations, and demand signals. If these inputs are even slightly off, downstream decisions compound the error."
+          },
+          "speedSection": {
+            "title": "Still, don't forget speed",
+            "text": "This doesn't mean speed is unimportant. On the contrary—speed is still critical in a fast-moving market. But it must come after establishing a strong base of data accuracy. Once systems are calibrated for precision, automation and AI can kick in to deliver speed without sacrificing quality. With accurate data in place, decision-making accelerates, and real-time optimization becomes possible."
+          },
+          "longRunSection": {
+            "title": "Aim for the long run",
+            "text": "In the long run, a supply chain built on accuracy is faster—not slower. Why? Because it doesn't waste time fixing mistakes, dealing with returns, or smoothing over customer issues. It flows more predictably, adapts more confidently, and scales more reliably."
+          },
+          "conclusion": {
+            "text": "The next time you're tempted to push for faster output at the cost of precision, take a step back. The goal isn't just to move quickly—it's to move smartly.",
+            "signOff": {
+              "prefix": "So:",
+              "company": "Makitapi"
+            }
+          }
+        }
+      },
+      "post3": {
+        "title": "Know Thyself, Focus on You",
+        "subtitle": "Data-Driven Intralogistics Is the Competitive Edge",
+        "description": "When businesses think about improving supply chain performance, the focus often jumps to transportation or last-mile delivery. But before any product reaches a truck or doorstep, it travels a more crucial path: inside your warehouse. This is where intralogistics—and more importantly, data about intralogistics—becomes the real competitive differentiator.",
+        "shares": 8,
+        "comments": 12,
+        "date": "August 2025",
+        "category": "Business",
+        "breadcrumb": {
+          "home": "Home",
+          "blog": "Blog"
+        },
+        "content": {
+          "introduction": "Modern intralogistics isn't just about automation or robotic picking. It's about having clean, real-time, high-visibility data that powers every internal movement of goods. From inventory accuracy to faster fulfillment, it all starts with knowing what's happening inside your four walls.",
+          "intralogisticsIntro": "Modern intralogistics isn't just about automation or robotic picking. It's about having clean, real-time, high-visibility data that powers every internal movement of goods. From inventory accuracy to faster fulfillment, it all starts with knowing what's happening inside your four walls.",
+          "fulfillmentSection": {
+            "title": "Faster Fulfillment Through Real-Time Data",
+            "text": "Speed begins with visibility. Accurate, real-time data on inventory location, order priority, and picker availability enables faster decision-making and smoother order flows. When systems are fed with clean, current data, you can ship more orders faster—without cutting corners or introducing costly errors."
+          },
+          "personalizationSection": {
+            "title": "Personalization Requires Precise Data",
+            "text": "Whether it's gift wrapping, special notes, or custom bundling, personalized orders introduce complexity. Handling them efficiently requires structured data on customer preferences, item configurations, and order history. Clean data ensures flexibility without bottlenecks."
+          },
+          "quote": {
+            "text": "If we have data, let's look at data. If all we have are opinions, let's go with mine.",
+            "author": "Jim Barksdale (Netscape CEO)"
+          },
+          "scalingSection": {
+            "title": "Scaling Order Volume Without Chaos",
+            "text": "High order volume is only a problem when data is disorganized. Scalable intralogistics starts with scalable data architecture—with standardized processes, real-time syncing, and system interoperability. This allows you to process a growing number of orders while maintaining speed and accuracy."
+          },
+          "automationSection": {
+            "title": "Cost Reduction Through Automation and Accurate Inputs",
+            "text": "Automation only works when the data that drives it is reliable. Robots can't make decisions if item locations are incorrect or demand signals are outdated. Clean data ensures automation is effective, reducing manual work and preventing errors that cost time and money."
+          },
+          "trustSection": {
+            "title": "Accuracy That Builds Trust",
+            "text": "Nothing undermines customer trust faster than fulfillment mistakes. Technologies like RFID and barcode scanning help—but only when backed by systems that store and process data accurately. Visibility into every movement ensures orders are picked and packed exactly as intended."
+          },
+          "inventorySection": {
+            "title": "Inventory Optimization Starts With Data",
+            "text": "Inventory management isn't just about counting what's on the shelf—it's about forecasting, positioning, and replenishing the right stock at the right time. Clean, timely data enables dynamic decision-making that reduces both overstock and stockouts."
+          },
+          "signOff": {
+            "prefix": "So:",
+            "company": "Makitapi"
+          }
+        }
+      },
+      "post4": {
+        "title": "It's a Lot About Data",
+        "subtitle": "How AI and Clean Data are Transforming the Supply Chain",
+        "description": "When we think about supply chains, we often focus on trucks, warehouses, shipping containers, and inventory. At its core, supply chain management is about moving items from point A to point B. But underneath that physical movement lies a foundation that's arguably even more critical: data.",
+        "shares": 8,
+        "comments": 5,
+        "date": "October 2025",
+        "category": "Travel",
+        "breadcrumb": {
+          "home": "Home",
+          "blog": "Blog"
+        },
+        "content": {
+          "introduction": "Every decision in the supply chain is fueled by data. How many units are on hand? Where are they located right now? How many more will I need next week, and when should I place the next order? These are not just logistics questions—they're data questions. And getting accurate, timely answers to them is key to operating an efficient and responsive supply chain.",
+          "aiAnalyticsIntro": "This is where analytics and AI come in. The need for fast, flexible reporting and data interpretation has never been greater. Traditional reporting might require days of work from analysts to pull, clean, and visualize data. But with AI, especially when integrated with natural language processing, you can now simply ask a question—like \"How much stock will we have in California by Friday?\"—and get a clear, contextual answer in seconds. AI can turn raw data into actionable insight almost instantly.",
+          "cleanDataImportance": "However, there's a catch. While having a good AI engine is important, it's not the most critical part of the system. The real linchpin? Clean data.",
+          "aiLimitation": "AI is only as good as the data it consumes. If the data is incomplete, outdated, or inaccurate, even the most advanced AI will give poor recommendations or misleading reports. For automation and AI-driven decision-making to reach the gold standard of 99%+ accuracy, businesses must invest in collecting clean, timely, and relevant data across all touchpoints in the supply chain.",
+          "dataRequirements": "This includes real-time inventory tracking, standardized data formats, robust data validation processes, and seamless system integrations. Only then can AI operate at its full potential—detecting trends, forecasting demand, and enabling smart, autonomous decisions that were once manual and error-prone.",
+          "futureVision": "In the end, the future of supply chain isn't just faster delivery or better routing. It's about turning a complex web of moving parts into a system that sees clearly and responds intelligently. And that starts with the data."
+        }
+      },
+      "post5": {
+        "title": "Managing the Flow",
+        "subtitle": "How Data Powers Warehouse Management and Material Flow",
+        "description": "Warehouse management and material flow form the backbone of supply chain operations. These aren't just about moving boxes—they're about orchestrating complex networks of assets, labor, and technology to ensure the efficient, reliable movement of goods. But beneath this orchestration lies something even more critical: data.",
+        "shares": 7,
+        "comments": 9,
+        "date": "December 2025",
+        "category": "Operations",
+        "breadcrumb": {
+          "home": "Home",
+          "blog": "Blog"
+        },
+        "content": {
+          "introduction": "Warehouse management and material flow form the backbone of supply chain operations. These aren't just about moving boxes—they're about orchestrating complex networks of assets, labor, and technology to ensure the efficient, reliable movement of goods. But beneath this orchestration lies something even more critical: data.",
+          "materialFlow": "Material flow covers the movement of goods within a warehouse: receiving, storage, picking, packing, and shipping. Efficient material flow is vital to avoiding bottlenecks and maintaining throughput. However, this process is only as good as the data that supports it.",
+          "realTimeData": "By leveraging real-time data, warehouses can track every item's location, predict potential delays, and optimize routes for picking and packing. Advanced technologies like RFID, IoT sensors, and AI-powered systems feed continuous streams of data that help forecast bottlenecks and adjust workflows in real-time. With this data intelligence, warehouses can move goods faster, reduce unnecessary steps, and optimize space and resources for greater throughput.",
+          "dataManagementIntro": "Efficient intralogistics doesn't just rely on physical processes—it's built on data management. Organizations can gain deep insights into internal logistics by harnessing big data analytics. Real-time data feeds offer visibility into a range of critical metrics, such as:",
+          "metrics": {
+            "stockLevels": "Accurate, up-to-the-minute tracking of stock levels and product movement.",
+            "orderStatus": "Visibility into which orders are pending, in progress, or completed.",
+            "equipmentHealth": "Monitoring the health and efficiency of equipment like conveyors, forklifts, or automated systems."
+          },
+          "insightsBenefits": "By centralizing and analyzing this data, warehouses can optimize workflows, predict maintenance needs, and fine-tune operational efficiency. All of this adds to a true track and trace of the whole value chain.",
+          "warehouseManagementIntro": "Warehouse management is about coordinating all tasks within a facility, from inventory control to space optimization. Data is at the heart of effective warehouse management, enabling businesses to streamline every aspect of their operations.",
+          "wmsImportance": "With the help of a robust Warehouse Management System (WMS), organizations can automate routine tasks, optimize space utilization, and improve order fulfillment accuracy. Data insights allow for more precise inventory forecasting, intelligent allocation of labor, and smarter order prioritization.",
+          "conclusion": "This results in improved accuracy, faster fulfillment times, and the ability to quickly respond to changing customer demands."
+        }
+      },
+      "post6": {
+        "title": "Digital Kanban with RFID Integration",
+        "subtitle": "Say Goodbye to Manual Tracking Forever",
+        "description": "Traditional Kanban methods work... until they don't. Physical cards get lost, information lags, and coordination requires constant communication. RFID-enabled digital Kanban transforms this outdated system into an automated, intelligent operation that updates itself and alerts you only when strategic intervention is needed.",
+        "shares": 6,
+        "comments": 8,
+        "date": "February 2026",
+        "category": "Technology",
+        "breadcrumb": {
+          "home": "Home",
+          "blog": "Blog"
+        },
+        "content": {
+          "introduction": "Traditional Kanban methods work... until they don't. Physical cards get lost, information lags, and coordination requires constant communication. RFID-enabled digital Kanban transforms this outdated system into an automated, intelligent operation that updates itself and alerts you only when strategic intervention is needed.",
+          "automaticUpdates": {
+            "title": "Automatic Progress Updates That Save You Hours Daily",
+            "text": "Forget asking \"What's the status?\" ever again. RFID-enabled digital Kanban boards update themselves. When materials move through your facility, RFID readers automatically advance cards from \"Ordered\" to \"Received\" to \"Deployed.\" Instead of spending 2-3 hours daily collecting status updates, you get real-time visibility that lets you focus on strategic decisions rather than data gathering. Your morning meetings become 10-minute strategic sessions instead of hour-long status marathons."
+          },
+          "bottleneckPrediction": {
+            "title": "Bottlenecks Identified Before You Even Know They Exist",
+            "text": "Here's what traditional tracking can't do: predict problems. Digital Kanban with RFID integration analyzes material flow patterns and flags potential bottlenecks before they impact operations. The system alerts you when Station 3 typically runs short on components based on consumption patterns, giving you time to preemptively address issues. You go from fighting fires to preventing them entirely."
+          },
+          "transparency": {
+            "title": "Transparency That Eliminates the \"Blame Game\"",
+            "text": "RFID integration creates an unalterable digital trail of exactly when items moved, where they went, and who handled them. No more \"I thought someone else was handling that\" or \"The parts never arrived.\" Your digital Kanban board shows definitive accountability, reducing finger-pointing and increasing problem-solving. Your team spends energy on solutions instead of excuses."
+          },
+          "automaticCommunication": {
+            "title": "Communication That Happens Without You",
+            "text": "Digital Kanban systems automatically notify relevant team members when their action items are ready. When RFID readers detect that incoming materials have arrived, the system instantly alerts the team responsible for the next step. You're no longer the communication hub that everything flows through—the system handles coordination while you focus on optimization."
+          },
+          "processImprovement": {
+            "title": "Process Improvement That Writes Itself",
+            "text": "RFID data integration provides analytics that manual systems simply cannot match. You'll discover that Route A actually takes 15% longer than Route B, or that certain suppliers consistently deliver late on Thursdays. These insights drive improvement initiatives with hard data backing your decisions."
+          },
+          "bottomLine": {
+            "title": "The Bottom Line Benefit",
+            "text": "Digital Kanban with RFID integration transforms you from a status-chasing supervisor into a strategic leader. You reclaim 15-20 hours weekly previously spent on manual tracking, while gaining predictive insights that prevent problems before they cost money. The question isn't whether you can afford this technology—it's whether you can afford to keep managing the hard way."
+          },
+          "signOff": {
+            "prefix": "So:",
+            "company": "Makitapi"
+          }
+        }
+      }
+    },
+    "trending": {
+      "posts": {
+        "post1": {
+          "title": "Instagram trends that will definitely work",
+          "date": "13 hours ago"
+        },
+        "post2": {
+          "title": "A session with a psychologist",
+          "date": "May 12, 2022"
+        },
+        "post3": {
+          "title": "How to look for inspiration for new goals",
+          "date": "June 10, 2022"
+        }
+      }
+    }
+  },
+  "projectDetails": {
+    "sidebar": {
+      "company": "Company",
+      "industry": "Industry",
+      "timeSpent": "Time spent"
+    },
+    "project1": {
+      "company": {
+        "dc": "1 DC",
+        "stores": "340+ Stores",
+        "region": "APAC"
+      },
+      "industry": "Fashion Retail",
+      "timeSpent": "2 months",
+      "sections": {
+        "aboutClient": {
+          "title": "About the client",
+          "content": "This fashion retailer focuses exclusively on women's clothing and accessories, featuring a diverse range of styles and brand partnerships. The company's product lineup spans from denim essentials and everyday casual pieces to feminine designs, specifically targeting young women's style preferences. Their brand portfolio emphasizes the fusion of relaxed, wearable fashion with modern contemporary trends."
+        },
+        "challenge": {
+          "title": "The challenge",
+          "content": "A distribution center handling 3 million items annually encountered significant bottlenecks at their seven-station sorting facility. Despite barcode scanning stations operating at maximum capacity, the scanning process remained the limiting factor preventing optimal throughput. With productivity constraints impacting overall operations, management was evaluating the investment in a second sorting system to increase processing capability and operational speed."
+        },
+        "solution": {
+          "title": "The solution",
+          "content": "The solution came through RFID technology upgrade that reduced item identification time to just 1 second per scan."
+        },
+        "numbersStory": {
+          "title": "The Numbers Tell the Story",
+          "content": "Before the upgrade, their worst-case scenario involved 9 seconds per item across 7 feeding stations. With 3 million items annually, this translated to 27 million seconds—or 7,500 hours—of pure scanning time yearly. Even at their best performance of 5 seconds per item, they were still consuming 4,167 hours annually in scanning operations alone. After implementing RFID readers at all seven stations, scanning time dropped to 1 second per item, requiring only 833 hours annually—a reduction of up to 6,667 hours per year. The facility also gained real-time visibility into sorting performance, allowing managers to identify and address capacity constraints before they impacted operations."
+        },
+        "results": {
+          "title": "Results",
+          "content1": "By investing in RFID technology, this distribution center reclaimed nearly 20 hours of productive capacity daily while improving accuracy and operator satisfaction. What before was done by 7 to 9 operators, now it could be done by 1!",
+          "content2": "The upgrade paid for itself within eight months through the labour savings alone. The company scrapped the idea to upgrade to a larger sorter or get a second one, proving that sometimes the smallest technological changes deliver the biggest operational impacts (even when shaving \"just\" a few seconds)."
+        }
+      },
+      "results": [
+        {
+          "number": "-53%",
+          "description": "labour for scanning operations"
+        },
+        {
+          "number": "6.6+",
+          "description": "Thousand hours saved"
+        },
+        {
+          "number": "6.2x",
+          "description": "sorter capacity"
+        },
+        {
+          "number": "20h",
+          "description": "less labour per day"
+        },
+        {
+          "number": "8",
+          "description": "Months ROI"
+        }
+      ]
+    },
+    "project2": {
+      "company": {
+        "dc": "1 DC",
+        "stores": "300+ Stores",
+        "region": "LATAM"
+      },
+      "industry": "Fashion Retail",
+      "timeSpent": "2 years",
+      "sections": {
+        "aboutClient": {
+          "title": "About the client",
+          "content": "A major retail distribution center handling 50 million hanging garments annually decided to implement RFID portals, they expected sizeable improvements."
+        },
+        "challenge": {
+          "title": "The challenge",
+          "content": "How to implement an RFID program to maximize its impact with the least effort/investment? What should be done to get the most out of the tech?"
+        },
+        "solution": {
+          "title": "The solution",
+          "content": "It's all on the implementation method, RFID is not plug and play, it's a journey. Hence, a stage-gate approach to ensure success at every step as well as onboarding all stakeholders to future proof the overall supply chain resilience, accuracy, and speed."
+        },
+        "evolutionStory": {
+          "title": "From good to great",
+          "content": "The retailer's journey began with a baseline performance of 1,400 items per man-hour, exactly meeting their modest goal. However, their RFID implementation revealed that true transformation requires patience, iteration, and organizational commitment.<br>RFID Pilot Stage: Initial portal installation delivered immediate 35% improvement, proving the technology's potential while maintaining existing workflows.<br>Hardware Fine-Tuning Optimizing read rates and portal positioning pushed performance to 50% above original baseline, demonstrating the importance of technical refinement.<br>Partner Training Educating suppliers and logistics partners on RFID-optimized processes delivered another performance leap, highlighting the ecosystem approach required.<br>DC Operations Changes The breakthrough came when they redesigned internal workflows around RFID capabilities rather than forcing the technology into existing processes—more than doubling original performance.<br>Redundant Operations Elimination The final transformation involved eliminating manual verification steps that RFID made obsolete, achieving a stunning 250% improvement over their starting point."
+        },
+        "results": {
+          "title": "Results",
+          "content1": "This retailer's success story proves that RFID implementation isn't plug-and-play—it's a strategic journey. While immediate improvements are possible, transformational results require organizations to reshape operations around the technology's capabilities, not the reverse.",
+          "content2": "The 4,900 items per man-hour achievement represents over $200k in annual labor savings, but more importantly, it demonstrates how embracing technological change as an organizational evolution—rather than just a tool upgrade—unlocks exponential value."
+        }
+      },
+      "results": [
+        {
+          "number": "50M",
+          "description": "items/year"
+        },
+        {
+          "number": "$200k",
+          "description": "savings in labour"
+        },
+        {
+          "number": "250%",
+          "description": "speed increase inbound goods"
+        }
+      ]
+    }
+  },
+  "useCasesItems": {
+    "inventory": {
+      "vas": {
+        "title": "Value Added Stations",
+        "description": "RFID value-added stations serve as quality checkpoints, ensuring accuracy during pallet, container, and box assembly. They enable real-time audits as items are loaded, providing detailed documentation of load composition. Tags capture individual item data for verification against order specifications while creating full traceability records."
+      },
+      "gates": {
+        "title": "Gates",
+        "description": "RFID gates offer automated bulk detection, significantly reducing processing time and errors. They integrate with visual indicators like stack lights, printers, and displays to provide comprehensive operational awareness and clear visibility of all material movements through seamless, remote monitoring capabilities."
+      },
+      "arches": {
+        "title": "Arches",
+        "description": "RFID arches provide cost-effective identification for specific items or smaller tag quantities where full tunnels aren't justified. They excel at selective monitoring of individual objects or small batches, capturing verification, location, and timestamp data. Real-time integration with inventory management, ERP, and compliance systems optimizes ROI."
+      },
+      "tunnels": {
+        "title": "Tunnels",
+        "description": "RFID tunnels enable rapid identification of multiple items at high conveyor speeds in high tag density scenarios. They automatically transmit critical data—material verification, location, and timestamps—directly to host IT systems without manual intervention. Near-real-time integration with WMS, ERP, and quality assurance platforms maximizes operational value."
+      }
+    },
+    "production": {
+      "inline": {
+        "title": "High-speed in-line",
+        "description": "High-speed production lines processing up to 10 items per second benefit from RFID's real-time, item-by-item verification without affecting throughput. The system captures and analyzes product data with minimal latency and no line-of-sight requirements, ensuring non-compliant products are diverted."
+      },
+      "assortment": {
+        "title": "In-line kits audit",
+        "description": "Inline kit control uses RFID to verify components against requirements in real-time during assembly without disrupting operations. It reduces downtime, unfinished goods, and manual audits while automating quality checks and catching errors early in the value chain."
+      },
+      "kanban": {
+        "title": "RTI Tracking",
+        "description": "RTIs (Returnable transport items) include various reusable bulk carriers such as pallets, cages, containers, totes, bins, IBCs, gas cylinders, kegs, among others. These essencial assets frequently encounter issues like supply chain disruptions, inefficient processes, billing inaccuracies, regulatory compliance challenges, and rising management expenses. Having a clear view of where, when, and how many, is paramount."
+      },
+      "sorter": {
+        "title": "Sorter optimization",
+        "description": "Using RFID in sorter feeding stations greatly boosts efficiency by eliminating barcode positioning requirements - items are read in any orientation. While saving just seconds per feed seems minor, this compounds across multiple stations, shifts, and millions of items. Some sorters can increase speed/load by 2-4 times."
+      }
+    }
+  }
+}

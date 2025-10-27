@@ -1,9 +1,9 @@
 <template>
   <main class="page-wrapper">
     <NavBar button-class="rounded-pill" />
-    
+
     <b-container class="pt-5 pb-lg-2 pb-xl-2 py-xxl-3 my-5">
-    <Breadcrumb title="Use-cases" :class="'pb-lg-4 pb-2'" />
+    <Breadcrumb :title="$t('useCases.breadcrumbTitle')" :class="'pb-lg-4 pb-2'" />
     </b-container>
 
     <Hero />

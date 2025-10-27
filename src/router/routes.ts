@@ -580,6 +580,18 @@ const myRoutes = [
     component: () => import('@/views/Makitapi/3Blog/Post5.vue')
   },
   {
+    path: '/blog/post6',
+    name: 'blog.post-6',
+    meta: {
+      title: getTitle('Blog Post'),
+      breadcrumb: {
+        label: 'Post',
+        parent: 'Blog' // Optional: explicit parent reference
+      }
+    },
+    component: () => import('@/views/Makitapi/3Blog/Post6.vue')
+  },
+  {
     path: '/projects',
     name: 'Projects',
     meta: {

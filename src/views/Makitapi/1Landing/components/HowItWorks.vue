@@ -1,35 +1,23 @@
 <template>
   <section class="overflow-hidden py-5 my-md-2 my-xl-4 my-xxl-5">
     <b-container class="py-2 py-sm-4 py-lg-5">
-      <h2 class="h1 text-center pb-1 mb-1 mt-xxl-2">How it works?</h2>
-      <p class="text-center pb-4 mb-2 mb-lg-3">Let's make it happen</p>
+      <h2 class="h1 text-center pb-1 mb-1 mt-xxl-2">{{ $t('howItWorks.title') }}</h2>
+      <p class="text-center pb-4 mb-2 mb-lg-3">{{ $t('howItWorks.subtitle') }}</p>
 
       <b-row class="align-items-center position-relative pb-5 pb-lg-0 mb-1 mb-sm-2 mb-md-4 mb-lg-0">
         <b-col md="6" lg="5" xl="4" class="offset-xl-1 order-md-1" data-aos="fade-right" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
           <div class="pe-md-4 pe-lg-0">
             <span class="badge fs-sm bg-primary bg-opacity-10 text-primary mb-3 mb-lg-4">Step 01</span>
-            <h3 class="h2 mb-3 mb-lg-4">Explore Tech Capabilities</h3>
-            <p class="pb-1 pb-lg-0 mb-4 mb-lg-5">Discover technology potential through case studies, live demo, and discussions tailored to your needs.</p>
+            <h3 class="h2 mb-3 mb-lg-4">{{ $t('howItWorks.step1.title') }}</h3>
+            <p class="pb-1 pb-lg-0 mb-4 mb-lg-5">{{ $t('howItWorks.step1.description') }}</p>
             <!-- <router-link class="btn btn-outline-primary rounded-pill" to="#">Schedule a Demo</router-link> -->
           </div>
         </b-col>
         <b-col md="6" xl="5" class="offset-lg-1 order-md-2 pb-2 pb-md-0 mb-4 mb-md-0" data-aos="fade-left" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
           <ul class="list-unstyled mb-0">
-            <li class="d-flex pt-1 mt-2">
+            <li v-for="(bullet, index) in step1Bullets" :key="index" class="d-flex pt-1 mt-2">
               <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-              Explore case studies from similar implementations
-            </li>
-            <li class="d-flex pt-1 mt-2">
-              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-              Live technology demonstration showcasing real-world applications
-            </li>
-            <li class="d-flex pt-1 mt-2">
-              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-              Proof of concept development to validate technical feasibility
-            </li>
-            <li class="d-flex pt-1 mt-2">
-              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-              Framework design and engagement model discussion (crawl, walk, run, fly)
+              {{ bullet }}
             </li>
           </ul>
         </b-col>
@@ -51,29 +39,17 @@
       <b-row class="align-items-center position-relative pb-5 pb-lg-0 mb-1 mb-sm-2 mb-md-4 mb-lg-0">
         <b-col md="6" lg="5" xl="4" class="offset-lg-1 order-2 order-md-1" data-aos="fade-left" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
           <ul class="list-unstyled mb-0">
-            <li class="d-flex pt-1 mt-2">
+            <li v-for="(bullet, index) in step2Bullets" :key="index" class="d-flex pt-1 mt-2">
               <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-              Detailed site surveys and operational workflow mapping
-            </li>
-            <li class="d-flex pt-1 mt-2">
-              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-              Complete documentation of current processes and improvement opportunities
-            </li>
-            <li class="d-flex pt-1 mt-2">
-              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-              Picture of Success (PictOS) definition with clear ROI projections
-            </li>
-            <li class="d-flex pt-1 mt-2">
-              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-              Pilot program design with specific success metrics defined
+              {{ bullet }}
             </li>
           </ul>
         </b-col>
         <b-col md="6" xl="5" class="offset-xl-1 pb-2 pb-md-0 mb-4 mb-md-0 order-1 order-md-2" data-aos="fade-right" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
           <div class="ps-md-4 ps-lg-0">
             <span class="badge fs-sm bg-primary bg-opacity-10 text-primary mb-3 mb-lg-4">Step 02</span>
-            <h3 class="h2 mb-3 mb-lg-4">Real-life test</h3>
-            <p class="pb-1 pb-lg-0 mb-4 mb-lg-5">Comprehensive Operations Assessment and Planning. Deep-dive analysis of your current operations, identifying bottlenecks, opportunities, and creating detailed implementation roadmap.</p>
+            <h3 class="h2 mb-3 mb-lg-4">{{ $t('howItWorks.step2.title') }}</h3>
+            <p class="pb-1 pb-lg-0 mb-4 mb-lg-5">{{ $t('howItWorks.step2.description') }}</p>
           </div>
         </b-col>
       </b-row>
@@ -95,28 +71,16 @@
         <b-col md="6" lg="5" xl="4" class="offset-xl-1 order-md-1" data-aos="fade-right" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
           <div class="pe-md-4 pe-lg-0">
             <span class="badge fs-sm bg-primary bg-opacity-10 text-primary mb-3 mb-lg-4">Step 03</span>
-            <h3 class="h2 mb-3 mb-lg-4">Rollout with Continuous Evolution</h3>
-            <p class="pb-1 pb-lg-0 mb-4 mb-lg-5">Execute a phased deployment grounded on 80/20 principles to maximum-impact with the least amount of effort but without compromising on long-term/future capabilities.</p>
+            <h3 class="h2 mb-3 mb-lg-4">{{ $t('howItWorks.step3.title') }}</h3>
+            <p class="pb-1 pb-lg-0 mb-4 mb-lg-5">{{ $t('howItWorks.step3.description') }}</p>
             <!-- <router-link class="btn btn-outline-primary rounded-pill" to="#">Reachout to us</router-link> -->
           </div>
         </b-col>
         <b-col md="6" xl="5" class="offset-lg-1 order-md-2 d-md-flex justify-content-end pb-2 pb-md-0 mb-4 mb-md-0" data-aos="fade-left" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
           <ul class="list-unstyled mb-0">
-            <li class="d-flex pt-1 mt-2">
+            <li v-for="(bullet, index) in step3Bullets" :key="index" class="d-flex pt-1 mt-2">
               <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-              Phased rollout execution with milestone-based progress tracking
-            </li>
-            <li class="d-flex pt-1 mt-2">
-              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-              ROI validation through measurable performance improvements
-            </li>
-            <li class="d-flex pt-1 mt-2">
-              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-              Hypercare support during critical transition periods
-            </li>
-            <li class="d-flex pt-1 mt-2">
-              <i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>
-              Future expansion guidelines and scalability planning framework
+              {{ bullet }}
             </li>
           </ul>
         </b-col>
@@ -124,3 +88,31 @@
     </b-container>
   </section>
 </template>
+
+<script setup lang="ts">
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+
+const step1Bullets = computed(() => [
+  t('howItWorks.step1.bullets.0'),
+  t('howItWorks.step1.bullets.1'),
+  t('howItWorks.step1.bullets.2'),
+  t('howItWorks.step1.bullets.3')
+])
+
+const step2Bullets = computed(() => [
+  t('howItWorks.step2.bullets.0'),
+  t('howItWorks.step2.bullets.1'),
+  t('howItWorks.step2.bullets.2'),
+  t('howItWorks.step2.bullets.3')
+])
+
+const step3Bullets = computed(() => [
+  t('howItWorks.step3.bullets.0'),
+  t('howItWorks.step3.bullets.1'),
+  t('howItWorks.step3.bullets.2'),
+  t('howItWorks.step3.bullets.3')
+])
+</script>
