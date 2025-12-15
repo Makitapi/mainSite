@@ -526,9 +526,9 @@
           "realTimeData": "Ao alavancar dados em tempo real, armazéns podem rastrear a localização de cada item, prever potenciais atrasos, e otimizar rotas para escolha e embalagem. Tecnologias avançadas como RFID, sensores IoT e sistemas alimentados por IA alimentam fluxos contínuos de dados que ajudam a prever gargalos e ajustar fluxos de trabalho em tempo real. Com essa inteligência de dados, armazéns podem mover mercadorias mais rápido, reduzir passos desnecessários, e otimizar espaço e recursos para maior produtividade.",
           "dataManagementIntro": "Intralogística eficiente não se baseia apenas em processos físicos—ela é construída em gestão de dados. Organizações podem ganhar percepções profundas em logística interna alavancando análise de big data. Alimentações de dados em tempo real oferecem visibilidade em uma gama de métricas críticas, tais como:",
           "metrics": {
-            "stockLevels": "Rastreamento preciso, minuto a minuto de níveis de estoque e movimento de produto.",
-            "orderStatus": "Visibilidade em quais pedidos estão pendentes, em progresso, ou completos.",
-            "equipmentHealth": "Monitoramento da saúde e eficiência de equipamentos como transportadores, empilhadeiras ou sistemas automatizados."
+            "stockLevels": "Rastreamento preciso, minuto a minuto do inventário e movimento de produto.",
+            "orderStatus": "Visibilidade dos pedidos estã pendentes, em progresso, ou completos.",
+            "equipmentHealth": "Monitorização da saúde e eficiência de equipamentos como transportadores, empilhadeiras ou sistemas automatizados."
           },
           "insightsBenefits": "Ao centralizar e analisar esses dados, armazéns podem otimizar fluxos de trabalho, prever necessidades de manutenção, e afinar eficiência operacional. Tudo isso adiciona a um rastreamento verdadeiro e visibilidade de toda a cadeia de valor.",
           "warehouseManagementIntro": "Gerenciamento de armazém é sobre coordenar todas as tarefas dentro de uma instalação, desde controle de inventário até otimização de espaço. Dados estão no coração da gestão efetiva de armazém, permitindo negócios racionalizar cada aspecto de suas operações.",

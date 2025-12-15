@@ -18,7 +18,7 @@ export const languages: Language[] = [
   {
     code: 'es',
     name: 'Español',
-    enabled: true
+    enabled: false
   }
 ]
 

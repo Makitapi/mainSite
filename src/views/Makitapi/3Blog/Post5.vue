@@ -40,33 +40,33 @@
     <b-row class="justify-content-center pt-xxl-2">
       <b-col lg="9" xl="8" class="pe-lg-4 pe-xl-0">
         <p class="fs-lg">{{ $t('blog.posts.post5.description', 'Warehouse management and material flow form the backbone of supply chain operations. These aren\'t just about moving boxes—they\'re about orchestrating complex networks of assets, labor, and technology to ensure the efficient, reliable movement of goods. But beneath this orchestration lies something even more critical: data.') }}</p>
-        <p class="fs-lg mb-3">{{ $t('blog.posts.post5.materialFlow', 'Material flow covers the movement of goods within a warehouse: receiving, storage, picking, packing, and shipping. Efficient material flow is vital to avoiding bottlenecks and maintaining throughput. However, this process is only as good as the data that supports it.') }}</p>
-        <p class="fs-lg pb-4 pb-xl-5">{{ $t('blog.posts.post5.realTimeData', 'By leveraging real-time data, warehouses can track every item\'s location, predict potential delays, and optimize routes for picking and packing. Advanced technologies like RFID, IoT sensors, and AI-powered systems feed continuous streams of data that help forecast bottlenecks and adjust workflows in real-time. With this data intelligence, warehouses can move goods faster, reduce unnecessary steps, and optimize space and resources for greater throughput.') }}</p>
+        <p class="fs-lg mb-3">{{ $t('blog.posts.post5.content.materialFlow', 'Material flow covers the movement of goods within a warehouse: receiving, storage, picking, packing, and shipping. Efficient material flow is vital to avoiding bottlenecks and maintaining throughput. However, this process is only as good as the data that supports it.') }}</p>
+        <p class="fs-lg pb-4 pb-xl-5">{{ $t('blog.posts.post5.content.realTimeData', 'By leveraging real-time data, warehouses can track every item\'s location, predict potential delays, and optimize routes for picking and packing. Advanced technologies like RFID, IoT sensors, and AI-powered systems feed continuous streams of data that help forecast bottlenecks and adjust workflows in real-time. With this data intelligence, warehouses can move goods faster, reduce unnecessary steps, and optimize space and resources for greater throughput.') }}</p>
         <p class="fs-lg pb-2 pb-lg-0 mb-4 mb-lg-5">
-          {{ $t('blog.posts.post5.dataManagementIntro', 'Efficient intralogistics doesn\'t just rely on physical processes—it\'s built on data management. Organizations can gain deep insights into internal logistics by harnessing big data analytics. Real-time data feeds offer visibility into a range of critical metrics, such as:') }}
+          {{ $t('blog.posts.post5.content.dataManagementIntro', 'Efficient intralogistics doesn\'t just rely on physical processes—it\'s built on data management. Organizations can gain deep insights into internal logistics by harnessing big data analytics. Real-time data feeds offer visibility into a range of critical metrics, such as:') }}
           <ul class="list-inline d-xl-flex text-center text-lg-start mt-auto mb-0 mb-sm-2">
             <li class="d-inline-flex align-items-center text-body text-nowrap pt-1 me-4">
               <i class="ai-check-alt text-primary fs-xl me-2"></i>
-              {{ $t('blog.posts.post5.metrics.stockLevels', 'Accurate, up-to-the-minute tracking of stock levels and product movement.') }}
+              {{ $t('blog.posts.post5.content.metrics.stockLevels', 'Accurate, up-to-the-minute tracking of stock levels and product movement.') }}
             </li>
           </ul>
           <ul class="list-inline d-xl-flex text-center text-lg-start mt-auto mb-0 mb-sm-2">
             <li class="d-inline-flex align-items-center text-body text-nowrap pt-1">
               <i class="ai-check-alt text-primary fs-xl me-2"></i>
-              {{ $t('blog.posts.post5.metrics.orderStatus', 'Visibility into which orders are pending, in progress, or completed.') }}
+              {{ $t('blog.posts.post5.content.metrics.orderStatus', 'Visibility into which orders are pending, in progress, or completed.') }}
             </li>
           </ul>
           <ul class="list-inline d-xl-flex text-center text-lg-start mt-auto mb-0 mb-sm-2">
             <li class="d-inline-flex align-items-center text-body text-nowrap pt-1">
               <i class="ai-check-alt text-primary fs-xl me-2"></i>
-              {{ $t('blog.posts.post5.metrics.equipmentHealth', 'Monitoring the health and efficiency of equipment like conveyors, forklifts, or automated systems.') }}
+              {{ $t('blog.posts.post5.content.metrics.equipmentHealth', 'Monitoring the health and efficiency of equipment like conveyors, forklifts, or automated systems.') }}
             </li>
           </ul>
-          {{ $t('blog.posts.post5.insightsBenefits', 'By centralizing and analyzing this data, warehouses can optimize workflows, predict maintenance needs, and fine-tune operational efficiency. All of this adds to a true track and trace of the whole value chain.') }}
+          {{ $t('blog.posts.post5.content.insightsBenefits', 'By centralizing and analyzing this data, warehouses can optimize workflows, predict maintenance needs, and fine-tune operational efficiency. All of this adds to a true track and trace of the whole value chain.') }}
         </p>
-        <p class="fs-lg pb-2 pb-lg-0 mb-4 mb-lg-5">{{ $t('blog.posts.post5.warehouseManagementIntro', 'Warehouse management is about coordinating all tasks within a facility, from inventory control to space optimization. Data is at the heart of effective warehouse management, enabling businesses to streamline every aspect of their operations.') }}</p>
-        <p class="fs-lg pb-2 pb-lg-0 mb-4 mb-lg-5">{{ $t('blog.posts.post5.wmsImportance', 'With the help of a robust Warehouse Management System (WMS), organizations can automate routine tasks, optimize space utilization, and improve order fulfillment accuracy. Data insights allow for more precise inventory forecasting, intelligent allocation of labor, and smarter order prioritization.') }}</p>
-        <p class="fs-lg pb-2 pb-lg-0 mb-4 mb-lg-5">{{ $t('blog.posts.post5.conclusion', 'This results in improved accuracy, faster fulfillment times, and the ability to quickly respond to changing customer demands.') }}</p>
+        <p class="fs-lg pb-2 pb-lg-0 mb-4 mb-lg-5">{{ $t('blog.posts.post5.content.warehouseManagementIntro', 'Warehouse management is about coordinating all tasks within a facility, from inventory control to space optimization. Data is at the heart of effective warehouse management, enabling businesses to streamline every aspect of their operations.') }}</p>
+        <p class="fs-lg pb-2 pb-lg-0 mb-4 mb-lg-5">{{ $t('blog.posts.post5.content.wmsImportance', 'With the help of a robust Warehouse Management System (WMS), organizations can automate routine tasks, optimize space utilization, and improve order fulfillment accuracy. Data insights allow for more precise inventory forecasting, intelligent allocation of labor, and smarter order prioritization.') }}</p>
+        <p class="fs-lg pb-2 pb-lg-0 mb-4 mb-lg-5">{{ $t('blog.posts.post5.content.conclusion', 'This results in improved accuracy, faster fulfillment times, and the ability to quickly respond to changing customer demands.') }}</p>
         <p class="fs-lg text-end ">{{ $t('blog.posts.post5.content.signOff.prefix', 'So:') }} <b>Maki<span class="ms-0" style="color: #0051a3">tapi</span></b> | {{ $t('blog.posts.post5.date', 'November 2025') }}</p>
       </b-col>
     </b-row>
@@ -81,7 +81,7 @@
 import NavBar from '@/components/NavBar/NavBar.vue'
 
 import Jarallax from '@/components/Jarallax.vue'
-import coverImg from '@/assets/img/blog/Post1.jpeg'
+import coverImg from '@/assets/img/blog/Post5.jpg'
 
 import Footer from '@/views/Makitapi/1Landing/components/Footer.vue'
 
