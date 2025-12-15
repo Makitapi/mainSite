@@ -12,13 +12,13 @@ export const languages: Language[] = [
   },
   {
     code: 'pt',
-    name: 'Português',
+    name: 'Português',  
     enabled: true
   },
   {
     code: 'es',
     name: 'Español',
-    enabled: false
+    enabled: true
   }
 ]
 
