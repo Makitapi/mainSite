@@ -83,19 +83,19 @@ export const blogPostList: BlogPostType[] = [
       name: 'blog.post-4'
     }
   },
-  // {
-  //   title: "The Power of Data in Optimizing Intralogistics and Warehouse Management",
-  //   subtitle: '',
-  //   image: Post5,
-  //   firstLine: "Intralogistics is the backbone of any efficient supply chain, focusing on the internal flow of goods and information within a warehouse or distribution center. While it's easy to get caught up in the physical movement of materials, the true power behind optimizing intralogistics lies in data—specifically, how data drives material flow, warehouse management, and overall operational efficiency.",
-  //   shares: 8,
-  //   comments: 5,
-  //   date: 'December 2025',
-  //   category: 'Travel',
-  //   link: {
-  //     name: 'blog.post-5'
-  //   }
-  // },
+  {
+    title: "The Power of Data in Optimizing Intralogistics and Warehouse Management",
+    subtitle: '',
+    image: Post5,
+    firstLine: "Intralogistics is the backbone of any efficient supply chain, focusing on the internal flow of goods and information within a warehouse or distribution center. While it's easy to get caught up in the physical movement of materials, the true power behind optimizing intralogistics lies in data—specifically, how data drives material flow, warehouse management, and overall operational efficiency.",
+    shares: 8,
+    comments: 5,
+    date: 'December 2025',
+    category: 'Travel',
+    link: {
+      name: 'blog.post-5'
+    }
+  },
   // {
   //   title: "Digital Kanban with RFID Integration",
   //   subtitle: "Say Goodbye to Manual Tracking Forever",
@@ -103,7 +103,7 @@ export const blogPostList: BlogPostType[] = [
   //   firstLine: "Traditional Kanban methods work... until they don't. Physical cards get lost, information lags, and coordination requires constant communication. RFID-enabled digital Kanban transforms this outdated system into an automated, intelligent operation that updates itself and alerts you only when strategic intervention is needed.",
   //   shares: 6,
   //   comments: 8,
-  //   date: 'December 2025',
+  //   date: 'February 2026',
   //   category: 'Technology',
   //   link: {
   //     name: 'blog.post-6'
